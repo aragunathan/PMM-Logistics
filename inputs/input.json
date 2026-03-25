@@ -1,0 +1,57 @@
+{
+  "company": {
+    "name": "Ramco Systems — Logistics Software",
+    "stage": "Enterprise",
+    "product_type": "Sales-led",
+    "acv_range": "$150k+",
+    "sales_cycle_days": 180,
+    "gtm_motion": "ABM + Multi-stakeholder consensus selling",
+    "website": "https://www.ramco.com/products/logistics-software/",
+    "crm": "HubSpot"
+  },
+  "market": {
+    "icp": "3PL companies with $100M+ annual revenue",
+    "regions": ["Australia", "Indonesia", "Saudi Arabia", "Philippines"],
+    "industries": ["Third-Party Logistics"],
+    "revenue_minimum_usd": 100000000
+  },
+  "personas": [
+    {
+      "name": "Technology Persona",
+      "titles": ["CIO", "VP IT", "Director IT"],
+      "role": "Gatekeeper and Influencer",
+      "age": "35+",
+      "interests": ["Technology news", "Logistics technology forums", "Webinars"]
+    },
+    {
+      "name": "Operations Persona",
+      "titles": ["COO", "VP Operations", "Head of Transportation", "Head of Warehousing"],
+      "role": "End-user Champion",
+      "age": "40+",
+      "interests": ["Logistics operations innovation", "Logistics associations"]
+    },
+    {
+      "name": "CEO Persona",
+      "titles": ["CEO", "President", "Owner"],
+      "role": "Economic Decision Maker",
+      "age": "40+",
+      "interests": ["Logistics associations", "Market trends", "Logistics forums and events"]
+    }
+  ],
+  "goals": {
+    "primary": "Pipeline Generation",
+    "target_opps_per_quarter": 20
+  },
+  "channels": ["LinkedIn Outbound", "Email", "Paid LinkedIn", "SEO + Content", "Events", "Partnerships"],
+  "constraints": {
+    "budget": "Enterprise",
+    "team_size": "15+",
+    "timeline_months": 12
+  },
+  "assets": {
+    "website": true,
+    "crm": "HubSpot",
+    "content": "partial",
+    "data_quality": "medium"
+  }
+}
