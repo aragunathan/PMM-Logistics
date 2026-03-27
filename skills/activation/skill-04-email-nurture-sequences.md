@@ -1,4 +1,5 @@
 # Skill 04 — Email Nurture Sequences
+
 ## Ramco Logistics Software | Activation
 
 > **Purpose:** Design, build, and deploy multi-touch email nurture sequences that move 3PL prospects through the funnel from first awareness to sales-ready conversation — without requiring an SDR touch at every step.
@@ -9,23 +10,26 @@
 ---
 
 ## Prerequisites
-- [ ] `/inputs/persona-definitions.md` — read in full before writing a single email
-- [ ] `/skills/activation/skill-03-persona-messaging-architecture.md` — messaging matrix must be approved before email copy is written
-- [ ] `/skills/acquisition/skill-01-abm-account-list-building.md` — HubSpot lists must exist before sequences can be enrolled
-- [ ] HubSpot Marketing Hub Professional or Enterprise (sequences + smart content + workflows)
-- [ ] Verified sending domain (SPF, DKIM, DMARC all configured — see Step 2)
-- [ ] At least one content asset per persona to use as a mid-funnel offer (case study, guide, or webinar)
-- [ ] Sales sign-off on handoff criteria (what constitutes a sales-ready lead from nurture)
+
+- `/inputs/persona-definitions.md` — read in full before writing a single email
+- `/skills/activation/skill-03-persona-messaging-architecture.md` — messaging matrix must be approved before email copy is written
+- `/skills/acquisition/skill-01-abm-account-list-building.md` — HubSpot lists must exist before sequences can be enrolled
+- HubSpot Marketing Hub Professional or Enterprise (sequences + smart content + workflows)
+- Verified sending domain (SPF, DKIM, DMARC all configured — see Step 2)
+- At least one content asset per persona to use as a mid-funnel offer (case study, guide, or webinar)
+- Sales sign-off on handoff criteria (what constitutes a sales-ready lead from nurture)
 
 ---
 
 ## How This Skill Fits the Funnel
 
 Email nurture sits between first awareness and sales conversation. Its job is not to close deals — it is to:
+
 1. Keep Ramco visible and credible between SDR touches
 2. Educate prospects on the cost of their current problem
 3. Build enough trust that when the SDR follows up, the prospect already knows who Ramco is
 4. Surface intent signals (link clicks, content downloads, reply to email) that trigger SDR action
+5. Ensure Email size is sharp, poised and to the point. Longer emails tend to get least attention. 
 
 This skill produces three tracks — one per persona. Each track is distinct in tone, pain point, proof, and CTA. A CIO and a COO at the same company must never receive the same email.
 
@@ -36,6 +40,7 @@ This skill produces three tracks — one per persona. Each track is distinct in 
 ---
 
 ### STEP 1: Define Track Architecture
+
 **Time:** 60 minutes | **Owner:** Demand Gen Lead
 
 Before writing any copy, define the structure of each track. Lock this before writing begins — changing track architecture mid-production wastes significant time.
@@ -43,6 +48,7 @@ Before writing any copy, define the structure of each track. Lock this before wr
 #### Track Definitions
 
 **Track 1 — Technology Persona (CIO / VP IT / Director IT)**
+
 - **Trigger:** Contact enrolled in `Messaging | Tech Persona | [Region]` list AND no open deal in HubSpot
 - **Goal:** Get a technical discovery call or platform architecture walkthrough booked
 - **Length:** 5 emails over 21 days
@@ -51,6 +57,7 @@ Before writing any copy, define the structure of each track. Lock this before wr
 - **Conversion CTA:** "Book a 30-minute technical walkthrough"
 
 **Track 2 — Operations Persona (COO / VP Ops / Head of Transport / Head of Warehousing)**
+
 - **Trigger:** Contact enrolled in `Messaging | Ops Persona | [Region]` list AND no open deal in HubSpot
 - **Goal:** Get an operational demo or discovery call booked
 - **Length:** 5 emails over 21 days
@@ -59,6 +66,7 @@ Before writing any copy, define the structure of each track. Lock this before wr
 - **Conversion CTA:** "Book a 20-minute operations demo"
 
 **Track 3 — CEO Persona (CEO / President / Owner / Managing Director)**
+
 - **Trigger:** Contact enrolled in `Messaging | CEO Persona | [Region]` list AND no open deal in HubSpot
 - **Goal:** Get an executive briefing or introduction to a regional Sales leader
 - **Length:** 4 emails over 18 days (shorter — CEO attention is scarce)
@@ -67,6 +75,7 @@ Before writing any copy, define the structure of each track. Lock this before wr
 - **Conversion CTA:** "Request a 15-minute executive briefing"
 
 #### Email Cadence Rules (apply to all tracks)
+
 - Minimum 3 days between emails — never send on consecutive days
 - Never send on Mondays before 10am or Fridays after 2pm local time (use HubSpot send-time optimisation)
 - If a contact replies at any point — pause the sequence immediately and route to SDR within 4 business hours
@@ -76,6 +85,7 @@ Before writing any copy, define the structure of each track. Lock this before wr
 ---
 
 ### STEP 2: Confirm Technical Infrastructure
+
 **Time:** 30–45 minutes | **Owner:** Marketing Ops
 
 Email deliverability is not optional. If this step is skipped, nurture emails land in spam and the entire programme fails silently.
@@ -85,6 +95,7 @@ Email deliverability is not optional. If this step is skipped, nurture emails la
 Check all three records are configured for your sending domain (e.g., `marketing.ramco.com` or `go.ramco.com`):
 
 **SPF (Sender Policy Framework):**
+
 ```
 In your DNS, look for a TXT record starting with "v=spf1"
 It must include HubSpot's sending servers: include:_spf.hubspot.com
@@ -92,11 +103,13 @@ Full record example: v=spf1 include:_spf.hubspot.com ~all
 ```
 
 **DKIM (DomainKeys Identified Mail):**
+
 - Navigate to: HubSpot → Settings → Marketing → Email → Sending Domains
 - Confirm DKIM status shows "Verified" for your sending domain
 - If not verified, follow HubSpot's DKIM setup guide and add the provided CNAME records to DNS
 
 **DMARC (Domain-based Message Authentication):**
+
 ```
 Add a TXT record to DNS for _dmarc.[yourdomain.com]
 Minimum record: v=DMARC1; p=quarantine; rua=mailto:[your-email@domain.com]
@@ -108,6 +121,7 @@ Recommended for production: p=reject once you confirm no deliverability issues
 #### 2b: Configure a Dedicated Sending Subdomain
 
 Do not send nurture emails from `@ramco.com` directly. Use a subdomain:
+
 - Recommended: `hello@go.ramco.com` or `[name]@engage.ramco.com`
 - This protects the main domain's sender reputation if nurture campaigns generate spam complaints
 - Set up the subdomain in HubSpot → Settings → Marketing → Email → Sending Domains
@@ -115,6 +129,7 @@ Do not send nurture emails from `@ramco.com` directly. Use a subdomain:
 #### 2c: Warm the Sending Domain (if new)
 
 If the sending subdomain is new (less than 30 days old), warm it before launching full sequences:
+
 - Week 1: Send to no more than 200 contacts per day — highest-engagement contacts first (existing customers, event attendees)
 - Week 2: 500 contacts per day
 - Week 3: 1,000 contacts per day
@@ -137,11 +152,13 @@ Navigate to: **HubSpot → Settings → Marketing → Email → Subscriptions**
 ---
 
 ### STEP 3: Write Email Copy for All Three Tracks
+
 **Time:** 4–6 hours | **Owner:** Copywriter / Demand Gen (use Claude Prompt 1 to accelerate)
 
 **Before writing:** Re-read the relevant persona section in `/inputs/persona-definitions.md` and pull the approved messaging matrix from `/skills/activation/skill-03-persona-messaging-architecture.md` for the persona you are writing.
 
 **Copy rules that apply to every email in every track:**
+
 - Subject line: Under 50 characters. No exclamation marks. No "Quick question" (overused). No spam triggers (free, guaranteed, act now, limited time).
 - Preview text: Always set — it is the second subject line. Under 90 characters. Should add context, not repeat the subject.
 - Opening line: Must not start with "I", "We", or "My name is". The prospect's world comes first.
@@ -156,6 +173,7 @@ Navigate to: **HubSpot → Settings → Marketing → Email → Subscriptions**
 #### TRACK 1 — Technology Persona Email Sequence
 
 **Email 1 — Day 0 (Send immediately on enrollment)**
+
 ```
 Subject: How [Company] IT teams are handling TMS/WMS integration
 Preview: One architecture decision that changes everything
@@ -182,6 +200,7 @@ PS — If you're already evaluating platforms, I'm happy to send our API documen
 ---
 
 **Email 2 — Day 4**
+
 ```
 Subject: The hidden cost of 3PL data fragmentation
 Preview: It's not the systems. It's what they can't see together.
@@ -206,6 +225,7 @@ Here's a breakdown of the three most common integration patterns we see in 3PLs 
 ---
 
 **Email 3 — Day 9**
+
 ```
 Subject: [Case study] 18-month TMS/WMS consolidation at a mid-market 3PL
 Preview: What the IT team said six months after go-live
@@ -230,6 +250,7 @@ The implementation wasn't perfect — they'll tell you that. But the honest acco
 ---
 
 **Email 4 — Day 14**
+
 ```
 Subject: Before you shortlist — a few questions worth answering
 Preview: Not a pitch. A checklist.
@@ -254,6 +275,7 @@ PS — If you'd like to run through the checklist against our platform specifica
 ---
 
 **Email 5 — Day 21 (Final touch)**
+
 ```
 Subject: Last one from me, [First Name]
 Preview: Leaving the door open
@@ -278,6 +300,7 @@ Either way, I'll stop filling your inbox now.
 #### TRACK 2 — Operations Persona Email Sequence
 
 **Email 1 — Day 0**
+
 ```
 Subject: How much is manual billing costing your operation?
 Preview: Most 3PLs don't know — until they calculate it
@@ -304,6 +327,7 @@ PS — If you'd prefer to see this in a live platform, I can show you exactly ho
 ---
 
 **Email 2 — Day 4**
+
 ```
 Subject: "Where is my shipment?" — the question costing your team hours
 Preview: Real-time visibility changes more than you'd expect
@@ -330,6 +354,7 @@ Here's a short video of how that looks in practice.
 ---
 
 **Email 3 — Day 9**
+
 ```
 Subject: Growing from $120M to $200M — what the operations team had to change
 Preview: It wasn't headcount
@@ -354,6 +379,7 @@ I've put together a case study of one that did exactly that. The numbers are in 
 ---
 
 **Email 4 — Day 14**
+
 ```
 Subject: The 20-minute demo that operations teams keep asking to see again
 Preview: Specific to 3PLs. No generic logistics demo.
@@ -380,6 +406,7 @@ PS — If you're not the right person for this conversation, I'd appreciate a po
 ---
 
 **Email 5 — Day 21 (Final touch)**
+
 ```
 Subject: Leaving this here, [First Name]
 Preview: No follow-up after this one
@@ -404,6 +431,7 @@ I'll leave it there.
 #### TRACK 3 — CEO Persona Email Sequence
 
 **Email 1 — Day 0**
+
 ```
 Subject: The digital gap in 3PL enterprise deals
 Preview: Why some 3PLs keep losing to competitors they should beat
@@ -432,6 +460,7 @@ PS — If this is a conversation worth having, I'm happy to arrange a brief call
 ---
 
 **Email 2 — Day 5**
+
 ```
 Subject: One number most 3PL CEOs don't track (but should)
 Preview: It's sitting in your billing data
@@ -460,6 +489,7 @@ Here's a one-page overview of how they get there.
 ---
 
 **Email 3 — Day 11**
+
 ```
 Subject: What [Peer Company Type] said after 12 months on Ramco
 Preview: In their words, not ours
@@ -484,6 +514,7 @@ He's also open to a direct call if you'd prefer to hear it unfiltered. I can arr
 ---
 
 **Email 4 — Day 18 (Final touch)**
+
 ```
 Subject: Last note, [First Name]
 Preview: One offer, then I'll get out of your inbox
@@ -506,6 +537,7 @@ If that's of interest, reply and I'll set it up. If not, I'll leave you to it.
 ---
 
 ### STEP 4: Apply Regional Adaptations to All Email Copy
+
 **Time:** 2–3 hours | **Owner:** Copywriter / Demand Gen
 
 The email sequences above are the global templates. Apply the following adaptations before building in HubSpot. Do not launch to any region without adapting.
@@ -519,12 +551,14 @@ The email sequences above are the global templates. Apply the following adaptati
 **Subject line tone:** Australian executives respond to direct, non-corporate subject lines. Test subject lines that sound like they came from a person, not a marketing department. "Quick one, [First Name]" or "[Company] — worth a conversation?" outperform formal subject lines in AU testing.
 
 **Body copy adjustments:**
+
 - Replace "enterprise shippers" with "major retail and FMCG customers" in CEO and Ops tracks — more specific to the AU 3PL context
 - Add Chain of Responsibility (CoR) reference in Track 1 (CIO) Email 2: "CoR compliance also means your systems need to produce auditable driver behaviour and load data — that's harder when the data lives in three separate systems."
 - In Track 2 (Ops) Email 1, replace the generic revenue leakage stat with AU-specific framing: "For a 3PL running $150M in freight under management in Australia, billing disputes and missed charges typically cost between..."
 - In Track 3 (CEO) Email 1, reference the competitive context directly: "The major national operators — Toll, Linfox, Mainfreight — have been investing in digital infrastructure for five years. Regional and mid-market 3PLs are now competing against that capability."
 
 **Send time optimisation (AEST):**
+
 - Best days: Tuesday, Wednesday, Thursday
 - Best times: 7:30–9:00am AEST (before the day gets away from them) or 1:00–2:00pm AEST
 - Avoid: Friday afternoons, Monday mornings, public holidays (check AU state-by-state public holiday calendar — they vary)
@@ -538,6 +572,7 @@ The email sequences above are the global templates. Apply the following adaptati
 **Salutation adjustment:** Change "Hi [First Name]" to "Dear Bapak/Ibu [First Name]" for the first email in each track. Subsequent emails can use "[First Name]," once a response pattern is established.
 
 **Body copy adjustments:**
+
 - In Track 2 (Ops) Email 2, replace the generic visibility framing with: "For 3PLs managing inter-island freight across Java, Sumatra, and Kalimantan, real-time shipment visibility isn't just a customer service improvement — it's the difference between proactive exception management and reactive crisis handling."
 - In Track 3 (CEO) Email 1, reference Vision-equivalent context: "Indonesia's logistics sector is growing at 8–10% annually, driven by e-commerce demand from Tokopedia, Shopee, and TikTok Shop. The 3PLs capturing the largest contracts are the ones who can demonstrate digital capability at scale."
 - Add a data residency reassurance note in Track 1 (CIO) Email 1: "Data residency in Indonesia is increasingly a requirement under the PDP Law. Our platform supports Indonesian data hosting — worth covering early in any technical evaluation."
@@ -545,6 +580,7 @@ The email sequences above are the global templates. Apply the following adaptati
 **Language note:** Emails sent to Indonesia should be in English at CIO/COO/CEO level. However, include a line in Email 1 and Email 4 offering Bahasa Indonesia materials: "All product documentation and implementation support is available in Bahasa Indonesia if that's more useful for your team."
 
 **Send time optimisation (WIB — Western Indonesia Time):**
+
 - Best days: Tuesday, Wednesday, Thursday
 - Best times: 8:00–10:00am WIB or 1:30–3:00pm WIB
 - Avoid: Friday afternoons (Jumu'ah prayer), during Ramadan (reduced send volume; shift to 10am–12pm WIB to catch post-Fajr work hours), Indonesian public holidays
@@ -558,6 +594,7 @@ The email sequences above are the global templates. Apply the following adaptati
 **Salutation adjustment:** Use "Dear [First Name]" in English-language emails. If sending in Arabic, use "عزيزي الأستاذ [First Name]" for males and adapt accordingly.
 
 **Body copy adjustments:**
+
 - In ALL tracks, add a Vision 2030 reference in Email 1: "Saudi Arabia's National Transport and Logistics Strategy — a core pillar of Vision 2030 — sets a clear mandate for logistics operators to digitise. The companies positioning themselves as strategic partners in that transformation are the ones investing in platform infrastructure now."
 - In Track 1 (CIO) Email 1, add: "PDPL compliance and Saudi data residency are requirements we address from day one — our platform supports deployment on AWS Middle East (Bahrain) and Azure UAE North."
 - In Track 1 (CIO) Email 2, add ZATCA reference: "Rating and billing automation also directly supports ZATCA Phase 2 e-invoicing compliance — your billing engine needs to generate Fatoora-compliant XML invoices. Ours does this natively."
@@ -566,6 +603,7 @@ The email sequences above are the global templates. Apply the following adaptati
 **Tone adjustment for all tracks:** Remove any language that implies urgency or time pressure. Replace "Act now" or "Don't miss this" style CTAs with consultative framing: "When the time is right for a conversation, I'm available at your convenience."
 
 **Send time optimisation (AST — Arabia Standard Time):**
+
 - Best days: Sunday, Monday, Tuesday (Saudi work week is Sunday–Thursday)
 - Best times: 9:00–11:00am AST or 2:00–4:00pm AST
 - Avoid: Friday and Saturday (weekend), prayer times (Dhuhr ~12:30pm, Asr ~3:30pm — brief pauses but worth noting), Ramadan (shift all send times to 9:00–11:00pm AST when executives work late)
@@ -577,12 +615,14 @@ The email sequences above are the global templates. Apply the following adaptati
 **Sending name and signature:** Use a Manila-based Ramco team member's name and direct mobile (+63 9XX XXX XXXX) where available. BGC or Makati office address in the signature is a credibility signal.
 
 **Body copy adjustments:**
+
 - In Track 2 (Ops) Email 2, replace generic visibility copy with: "In Metro Manila, where EDSA traffic can turn a 3-hour delivery window into a 6-hour one, real-time dispatch visibility isn't just about customer communication — it's about re-routing in real time, reassigning drivers, and keeping SLAs intact despite infrastructure that's outside your control."
 - In Track 2 (Ops) Email 3, use Philippine-specific growth framing: "Philippine 3PLs managing e-commerce fulfillment for Lazada, Shopee, and TikTok Shop are seeing 30–50% volume spikes during 11.11 and 12.12 sales events. The ones that can absorb that volume without proportional headcount growth are the ones with automated operations behind them."
 - In Track 3 (CEO) Email 1, reference Philippine-specific competitive context: "The large Philippine conglomerates with logistics arms — 2GO, LBC's B2B division, Air21 — have been investing in digital infrastructure. Independent 3PLs competing for the same enterprise accounts need a credible technology story to stay in those deals."
 - In Track 1 (CIO) Email 1, add disaster resilience reference: "Business continuity is also worth building into any platform evaluation — Philippine operations need failover capability that accounts for typhoon season and the physical infrastructure disruptions that come with it. Our cloud architecture addresses this directly."
 
 **Send time optimisation (PHT — Philippine Time):**
+
 - Best days: Tuesday, Wednesday, Thursday
 - Best times: 8:00–10:00am PHT or 1:00–3:00pm PHT
 - Avoid: Friday afternoons (many Philippine executives leave early for weekend), typhoon signal days (genuinely — no one is reading email when Signal 3 is up), December (holiday season starts early in the Philippines; wind down campaigns from December 15)
@@ -590,6 +630,7 @@ The email sequences above are the global templates. Apply the following adaptati
 ---
 
 ### STEP 5: Build Sequences in HubSpot
+
 **Time:** 2–3 hours | **Owner:** Marketing Ops / HubSpot Admin
 
 #### 5a: Create Email Templates
@@ -597,6 +638,7 @@ The email sequences above are the global templates. Apply the following adaptati
 Navigate to: **HubSpot → Marketing → Email → Create Email → Automated**
 
 Create one email template per email in each track. Naming convention:
+
 ```
 NUR | [Track] | [Persona] | [Region] | E[Number] — [Short description]
 
@@ -607,6 +649,7 @@ NUR | T3 | CEO | SA | E1 — Digital capability gap
 ```
 
 **Template setup per email:**
+
 - Email type: Automated (not marketing — this bypasses the "unsubscribe" footer requirement for one-to-one sends, but only if you are using Sequences, not Workflows. If using Workflows, marketing email type is required.)
 - From name: [Real sender name] (personalisation token: `{{owner.full_name}}`)
 - From address: [Sending subdomain email]
@@ -628,6 +671,7 @@ Navigate to: **HubSpot → Automation → Workflows → Create Workflow → Cont
 Create one workflow per track per region (12 total: 3 tracks × 4 regions).
 
 Naming convention:
+
 ```
 NURTURE | [Persona] | [Region] | Track [Number]
 
@@ -640,6 +684,7 @@ NURTURE | CEO | SA | Track 3
 **Workflow structure (example for Track 2 — Ops, Australia):**
 
 **Enrollment trigger:**
+
 - Contact is a member of list: `Messaging | Ops Persona | AU`
 - AND Contact property: `hs_email_optout` is unknown or false
 - AND Contact property: `abm_sequence_status` is not equal to "Active" or "Meeting Booked"
@@ -647,6 +692,7 @@ NURTURE | CEO | SA | Track 3
 - AND Contact does not have an associated open deal
 
 **Workflow steps:**
+
 ```
 [Enrollment trigger fires]
   ↓
@@ -691,6 +737,7 @@ End workflow
 ```
 
 **Suppression settings:**
+
 - Re-enrollment: OFF (contacts should not cycle through the same track twice)
 - Goal: Contact books a meeting (HubSpot meetings link clicked) → exit workflow
 - Goal: Contact replies to any email → exit workflow
@@ -699,12 +746,14 @@ End workflow
 #### 5c: Configure SDR Notification Tasks
 
 Every workflow should create a HubSpot task for the assigned SDR when:
+
 - A contact replies to any email in the sequence
 - A contact clicks a CTA link (meeting request, content download) without converting
 - A contact opens 3+ emails without clicking anything (set a delayed branch at Day 14 to check open count)
 - The sequence completes with no engagement
 
 **Task format:**
+
 ```
 Title: NURTURE ALERT — [Contact Name] | [Company] | [Action]
 Assign to: [Contact owner — use HubSpot's contact owner token]
@@ -719,6 +768,7 @@ Navigate to: **HubSpot → Reports → Dashboards → Create Dashboard**
 Name: `Email Nurture Performance`
 
 Add the following reports:
+
 1. **Email open rate by track** — Bar chart, broken out by Track 1 / Track 2 / Track 3
 2. **Email click rate by track** — Bar chart
 3. **Reply rate by track** — Bar chart
@@ -731,22 +781,24 @@ Add the following reports:
 ---
 
 ### STEP 6: QA Before Launch
+
 **Time:** 60 minutes | **Owner:** Marketing Ops
 
 Do not skip this step. Every email nurture launch that skips QA produces at least one embarrassing error.
 
 **QA checklist:**
-- [ ] Send all emails to a test contact (internal) and review in Gmail, Outlook, and mobile
-- [ ] Confirm all personalisation tokens populate correctly — send to a contact with complete data AND a contact with missing first name (fallback should read "there" not "[First Name]")
-- [ ] Confirm all links work and go to the correct destination
-- [ ] Confirm unsubscribe link is present in all emails (required by law)
-- [ ] Confirm suppression lists are applied in workflow enrollment trigger
-- [ ] Confirm workflow goal events are set correctly (meeting booked, reply, deal created)
-- [ ] Confirm SDR task creation triggers are firing in workflow preview
-- [ ] Confirm send times are set in the correct timezone per region
-- [ ] Confirm from name and from address are correct per region
-- [ ] Run a seed list send (send all 5 emails to internal team) and confirm no spam filtering
-- [ ] Get Sales sign-off that email copy matches approved messaging matrix before going live
+
+- Send all emails to a test contact (internal) and review in Gmail, Outlook, and mobile
+- Confirm all personalisation tokens populate correctly — send to a contact with complete data AND a contact with missing first name (fallback should read "there" not "[First Name]")
+- Confirm all links work and go to the correct destination
+- Confirm unsubscribe link is present in all emails (required by law)
+- Confirm suppression lists are applied in workflow enrollment trigger
+- Confirm workflow goal events are set correctly (meeting booked, reply, deal created)
+- Confirm SDR task creation triggers are firing in workflow preview
+- Confirm send times are set in the correct timezone per region
+- Confirm from name and from address are correct per region
+- Run a seed list send (send all 5 emails to internal team) and confirm no spam filtering
+- Get Sales sign-off that email copy matches approved messaging matrix before going live
 
 ---
 
@@ -886,65 +938,79 @@ Final output: Priority order of fixes — which change will have the biggest imp
 ## KPIs
 
 ### Delivery KPIs (measure at first send)
-| Metric | Target | How to Measure |
-|--------|--------|----------------|
-| Email deliverability rate | >98% | HubSpot email report: delivered / sent |
-| Bounce rate (hard) | <0.5% | HubSpot email report |
-| Spam complaint rate | <0.1% | HubSpot email report / Google Postmaster Tools |
-| SPF/DKIM authentication pass rate | 100% | mail-tester.com score ≥9/10 |
+
+
+| Metric                            | Target | How to Measure                                 |
+| --------------------------------- | ------ | ---------------------------------------------- |
+| Email deliverability rate         | >98%   | HubSpot email report: delivered / sent         |
+| Bounce rate (hard)                | <0.5%  | HubSpot email report                           |
+| Spam complaint rate               | <0.1%  | HubSpot email report / Google Postmaster Tools |
+| SPF/DKIM authentication pass rate | 100%   | mail-tester.com score ≥9/10                    |
+
 
 ### Engagement KPIs (measure at 30 and 60 days)
-| Metric | Target | Benchmark | How to Measure |
-|--------|--------|-----------|----------------|
-| Open rate | >32% | Industry: 22–28% | HubSpot sequence report |
-| Click-to-open rate | >12% | Industry: 8–10% | HubSpot sequence report |
-| Reply rate | >4% | Industry: 1–3% | HubSpot sequence report |
-| Unsubscribe rate | <0.3% per email | | HubSpot email report |
-| Sequence completion rate | <40% (most should exit via engagement) | | HubSpot workflow report |
+
+
+| Metric                   | Target                                 | Benchmark        | How to Measure          |
+| ------------------------ | -------------------------------------- | ---------------- | ----------------------- |
+| Open rate                | >32%                                   | Industry: 22–28% | HubSpot sequence report |
+| Click-to-open rate       | >12%                                   | Industry: 8–10%  | HubSpot sequence report |
+| Reply rate               | >4%                                    | Industry: 1–3%   | HubSpot sequence report |
+| Unsubscribe rate         | <0.3% per email                        |                  | HubSpot email report    |
+| Sequence completion rate | <40% (most should exit via engagement) |                  | HubSpot workflow report |
+
 
 ### Pipeline KPIs (measure at 90 days)
-| Metric | Target | How to Measure |
-|--------|--------|----------------|
-| Meetings booked from nurture | >6% of enrolled contacts | HubSpot meetings report filtered by nurture list |
-| SQLs influenced by nurture | >20% of all SQLs touched a nurture email | HubSpot attribution report |
-| Pipeline value from nurture-touched contacts | >25% of total pipeline | HubSpot deal report: contact enrolled in nurture workflow |
-| Average days from enrollment to meeting booked | <35 days | HubSpot workflow analytics |
+
+
+| Metric                                         | Target                                   | How to Measure                                            |
+| ---------------------------------------------- | ---------------------------------------- | --------------------------------------------------------- |
+| Meetings booked from nurture                   | >6% of enrolled contacts                 | HubSpot meetings report filtered by nurture list          |
+| SQLs influenced by nurture                     | >20% of all SQLs touched a nurture email | HubSpot attribution report                                |
+| Pipeline value from nurture-touched contacts   | >25% of total pipeline                   | HubSpot deal report: contact enrolled in nurture workflow |
+| Average days from enrollment to meeting booked | <35 days                                 | HubSpot workflow analytics                                |
+
 
 ---
 
 ## Failure Modes and How to Fix Them
 
-| Failure Mode | Symptom | Fix |
-|-------------|---------|-----|
-| Low open rates (<20%) | Emails not being opened; subject lines underperforming | A/B test subject lines using Prompt 2; check sender reputation at Google Postmaster Tools; ensure send time is optimised per region |
-| High unsubscribe rate (>0.5%) | Contacts opting out early in sequence | Audit copy for overly salesy language; check that contacts are ICP-matched (bad list = bad unsubscribes); increase value-to-ask ratio (more content, later CTA) |
-| Emails landing in spam | Open rates near zero; no bounces; no unsubscribes — just silence | Check DKIM/SPF/DMARC configuration; reduce sending frequency; remove spam trigger words; warm the domain if newly configured |
-| No SDR follow-through on intent signals | Contacts click CTA links but no one follows up | Audit HubSpot task creation in workflow; set up Slack notifications for SDR when task is created; add task SLA to SDR KPIs |
-| Sequences not enrolling contacts | Lists empty or workflow not firing | Check that contact lists have correct filter logic; confirm abm_persona_category property is populated for contacts; check workflow enrollment trigger is set to re-enrollment OFF and initial enrollment logic is correct |
-| CIO and Ops receive the same email | Smart content not working; persona property missing | Audit HubSpot smart content rules; run a list pull to confirm abm_persona_category is populated for all enrolled contacts |
-| Reply goes to no-reply address | Prospect replies but no one receives it | Change all email From addresses to a monitored inbox; confirm Reply-To is set to the sender's real email in HubSpot template settings |
-| Sequence fires during Ramadan / public holiday | Emails sent at wrong cultural timing; lower engagement than expected | Build regional public holiday suppression into workflow (pause workflow via date-based enrollment suppression for known holiday windows); manually pause Ramadan-period sends for SA and ID tracks |
-| Messaging doesn't match sales conversations | SDRs say "prospects have never heard of Ramco" despite nurture activity | Check open and click data — if contacts are not engaging, the issue is deliverability or list quality; if they are engaging but not connecting it to SDR outreach, align SDR subject lines with nurture email themes |
+
+| Failure Mode                                   | Symptom                                                                 | Fix                                                                                                                                                                                                                        |
+| ---------------------------------------------- | ----------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Low open rates (<20%)                          | Emails not being opened; subject lines underperforming                  | A/B test subject lines using Prompt 2; check sender reputation at Google Postmaster Tools; ensure send time is optimised per region                                                                                        |
+| High unsubscribe rate (>0.5%)                  | Contacts opting out early in sequence                                   | Audit copy for overly salesy language; check that contacts are ICP-matched (bad list = bad unsubscribes); increase value-to-ask ratio (more content, later CTA)                                                            |
+| Emails landing in spam                         | Open rates near zero; no bounces; no unsubscribes — just silence        | Check DKIM/SPF/DMARC configuration; reduce sending frequency; remove spam trigger words; warm the domain if newly configured                                                                                               |
+| No SDR follow-through on intent signals        | Contacts click CTA links but no one follows up                          | Audit HubSpot task creation in workflow; set up Slack notifications for SDR when task is created; add task SLA to SDR KPIs                                                                                                 |
+| Sequences not enrolling contacts               | Lists empty or workflow not firing                                      | Check that contact lists have correct filter logic; confirm abm_persona_category property is populated for contacts; check workflow enrollment trigger is set to re-enrollment OFF and initial enrollment logic is correct |
+| CIO and Ops receive the same email             | Smart content not working; persona property missing                     | Audit HubSpot smart content rules; run a list pull to confirm abm_persona_category is populated for all enrolled contacts                                                                                                  |
+| Reply goes to no-reply address                 | Prospect replies but no one receives it                                 | Change all email From addresses to a monitored inbox; confirm Reply-To is set to the sender's real email in HubSpot template settings                                                                                      |
+| Sequence fires during Ramadan / public holiday | Emails sent at wrong cultural timing; lower engagement than expected    | Build regional public holiday suppression into workflow (pause workflow via date-based enrollment suppression for known holiday windows); manually pause Ramadan-period sends for SA and ID tracks                         |
+| Messaging doesn't match sales conversations    | SDRs say "prospects have never heard of Ramco" despite nurture activity | Check open and click data — if contacts are not engaging, the issue is deliverability or list quality; if they are engaging but not connecting it to SDR outreach, align SDR subject lines with nurture email themes       |
+
 
 ---
 
 ## Tools Required
 
-| Tool | Purpose | Required / Optional |
-|------|---------|-------------------|
-| HubSpot Marketing Hub Pro or Enterprise | Email template build, workflow automation, smart content, reporting | Required |
-| mail-tester.com | Pre-launch deliverability and spam score check | Required |
-| Google Postmaster Tools | Monitor sender reputation for Gmail recipients (dominant in AU, PH) | Required |
-| Microsoft SNDS | Monitor sender reputation for Outlook/Hotmail recipients | Recommended |
-| Hemingway App (hemingwayapp.com) | Readability check — target Grade 8 or below for all email body copy | Optional |
-| Grammarly | Copy proofing before HubSpot build | Optional |
-| Litmus or Email on Acid | Cross-client email rendering test (Gmail, Outlook, Apple Mail, mobile) | Recommended |
-| DeepL / Google Translate | Indonesian (Bahasa) and Arabic translation review for regional variants | Required for ID and SA tracks |
-| Loom | Record SDR training walkthrough of the nurture sequence and its intent logic | Optional |
+
+| Tool                                    | Purpose                                                                      | Required / Optional           |
+| --------------------------------------- | ---------------------------------------------------------------------------- | ----------------------------- |
+| HubSpot Marketing Hub Pro or Enterprise | Email template build, workflow automation, smart content, reporting          | Required                      |
+| mail-tester.com                         | Pre-launch deliverability and spam score check                               | Required                      |
+| Google Postmaster Tools                 | Monitor sender reputation for Gmail recipients (dominant in AU, PH)          | Required                      |
+| Microsoft SNDS                          | Monitor sender reputation for Outlook/Hotmail recipients                     | Recommended                   |
+| Hemingway App (hemingwayapp.com)        | Readability check — target Grade 8 or below for all email body copy          | Optional                      |
+| Grammarly                               | Copy proofing before HubSpot build                                           | Optional                      |
+| Litmus or Email on Acid                 | Cross-client email rendering test (Gmail, Outlook, Apple Mail, mobile)       | Recommended                   |
+| DeepL / Google Translate                | Indonesian (Bahasa) and Arabic translation review for regional variants      | Required for ID and SA tracks |
+| Loom                                    | Record SDR training walkthrough of the nurture sequence and its intent logic | Optional                      |
+
 
 ---
 
 ## Related Files
+
 - `/inputs/persona-definitions.md` — Read before writing any email copy
 - `/skills/activation/skill-03-persona-messaging-architecture.md` — Messaging matrix must be approved before copy is written
 - `/skills/acquisition/skill-01-abm-account-list-building.md` — HubSpot lists that trigger sequence enrollment
@@ -954,3 +1020,4 @@ Final output: Priority order of fixes — which change will have the biggest imp
 - `/templates/email-nurture-track2.md` — Track 2 (Ops) template
 - `/templates/email-nurture-track3.md` — Track 3 (CEO) template
 - `/experiments/experiment-log.md` — Log all A/B tests run on subject lines and copy variants
+
