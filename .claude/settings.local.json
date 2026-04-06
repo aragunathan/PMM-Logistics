@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:allpurpose.com.au)"
+      "WebFetch(domain:allpurpose.com.au)",
+      "Bash(node:*)",
+      "Bash(git add:*)"
     ]
   }
 }
