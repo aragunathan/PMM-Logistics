@@ -3,7 +3,9 @@
     "allow": [
       "WebFetch(domain:allpurpose.com.au)",
       "Bash(node:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "mcp__mcp-registry__search_mcp_registry"
     ]
   }
 }
