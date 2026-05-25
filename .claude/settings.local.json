@@ -5,7 +5,10 @@
       "Bash(node:*)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "mcp__mcp-registry__search_mcp_registry"
+      "mcp__mcp-registry__search_mcp_registry",
+      "WebFetch(domain:www.fmgloballogistics.com)",
+      "WebFetch(domain:www.ramco.com)",
+      "WebSearch"
     ]
   }
 }
