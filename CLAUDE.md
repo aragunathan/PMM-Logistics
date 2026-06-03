@@ -195,3 +195,30 @@ Quick commands:
 - "Run mid-year plan review"
   → read prompts/strategy/mid-year-review.md
 ---
+## Product Marketing Skills (Added)
+
+### Skills:
+- skills/product-marketing/skill-14-product-launch-playbook.md
+- skills/product-marketing/skill-15-case-study-reference-program.md
+- skills/product-marketing/skill-16-sales-battlecard-system.md
+- skills/product-marketing/skill-17-messaging-positioning-framework.md
+
+### Agents:
+- agents/product-launch-agent.md
+- agents/case-study-agent.md
+- agents/messaging-agent.md
+
+### Rules for product marketing work:
+- Always read skill-17 (messaging framework) before generating any copy
+- Always read persona-definitions.md before generating any asset
+- TMS repositioning is the current 12-month priority — lead all TMS work with the exclusivity angle
+- Case study scoring must be run before production begins
+
+### Quick commands:
+- "Run the product launch agent for TMS — Repositioning"
+  → reads skill-14, skill-17, produces full launch plan and assets
+- "Run the case study agent for [CUSTOMER] in [REGION]"
+  → scores candidate, produces full, one-page, LinkedIn, and HubSpot actions
+- "Run the messaging agent for TMS in Australia"
+  → produces messaging matrix and website hero copy
+- "Run the messaging audit" → audits pasted assets for messaging consistency

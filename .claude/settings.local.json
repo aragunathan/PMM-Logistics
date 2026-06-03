@@ -8,7 +8,9 @@
       "mcp__mcp-registry__search_mcp_registry",
       "WebFetch(domain:www.fmgloballogistics.com)",
       "WebFetch(domain:www.ramco.com)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(chmod +x C:/ClaudeCode/Clones/PMM-Logistics/scripts/run-product-launch.sh)",
+      "Bash(chmod +x C:/ClaudeCode/Clones/PMM-Logistics/scripts/run-case-study.sh)"
     ]
   }
 }
