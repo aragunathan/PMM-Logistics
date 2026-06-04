@@ -4,7 +4,7 @@
 - **Company:** Ramco Systems — Logistics Software division
 - **Product:** Integrated logistics platform (TMS, WMS, Fleet Management, Hub Management, Rating & Billing)
 - **Target:** 3PL companies with $100M+ annual revenue
-- **Regions:** Australia, Indonesia, Saudi Arabia, Philippines
+- **Regions:** Australia, Indonesia, Saudi Arabia, Philippines, India
 - **ACV:** $150k+
 - **Sales cycle:** 180+ days
 - **CRM:** HubSpot
@@ -62,6 +62,7 @@ Rules when I ask for Google Ads keyword work:
 - Tier 1 keywords use Exact Match and Phrase Match only — never Broad
 - Always generate regional modifier variants for the requested region
 - Always generate local language variants for Indonesia and Saudi Arabia
+- India uses English only for enterprise B2B — no local language variants needed
 - Always include a negative keyword list with every keyword output
 - Save all keyword outputs to campaigns/google-ads/ folder
 

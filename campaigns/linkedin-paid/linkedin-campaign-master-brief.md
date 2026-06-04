@@ -1,5 +1,5 @@
 # Ramco Logistics — LinkedIn Paid Campaign Master Brief
-**Regions:** Australia | Indonesia | Saudi Arabia
+**Regions:** Australia | Indonesia | Saudi Arabia | Philippines | India
 **Personas:** COO/VP Ops | CEO | CIO/VP IT
 **Goal:** Qualified pipeline — demo requests, content downloads, SDR-ready leads
 **Campaign Layer:** Layer 1 ABM + Layer 2 Persona Targeting + Layer 3 Retargeting

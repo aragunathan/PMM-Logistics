@@ -2,7 +2,7 @@
 **Platform:** LinkedIn Paid
 **Primary Persona:** COO / VP Operations / Head of Transport / Head of Warehousing
 **Secondary Persona:** CEO (late-stage retargeting)
-**Regions:** Australia | Indonesia | Saudi Arabia
+**Regions:** Australia | Indonesia | Saudi Arabia | Philippines | India
 **Layer:** L1 ABM + L2 Persona + L3 Retargeting
 **Campaign ID prefix:** C01
 **Created:** 2026-03-29

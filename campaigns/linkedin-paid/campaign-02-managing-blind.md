@@ -1,7 +1,7 @@
 # Campaign 02 — Managing Blind
 **Platform:** LinkedIn Paid
 **Primary Persona:** COO / VP Operations / Head of Transport / Head of Warehousing
-**Regions:** Australia | Indonesia | Saudi Arabia
+**Regions:** Australia | Indonesia | Saudi Arabia | Philippines | India
 **Layer:** L1 ABM + L2 Persona + L3 Retargeting
 **Formats:** Video Ad (awareness) + Sponsored Content + Conversation Ad (mid-funnel) + LGF
 **Campaign ID prefix:** C02

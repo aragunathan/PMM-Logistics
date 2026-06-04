@@ -1,6 +1,6 @@
 # Master Competitor List — Ramco Logistics Software
-Last updated: 2026-03-24
-Regions: Australia, Indonesia, Saudi Arabia, Philippines
+Last updated: 2026-06-04
+Regions: Australia, Indonesia, Saudi Arabia, Philippines, India
 
 ## Tier 1 — Direct Enterprise Competitors
 | Competitor | Primary Product | Strongest Region | Battlecard Status |
@@ -24,6 +24,18 @@ Regions: Australia, Indonesia, Saudi Arabia, Philippines
 | In-house built systems | Custom | PH, ID | Not applicable |
 | Local ERP vendors (Odoo etc) | ERP | ID | Not built |
 | Local SA vendors | Various | SA | Not built |
+| FarEye | Last-mile delivery | IN | Not built |
+| Locus | Route optimisation | IN | Not built |
+| Custom-built / Excel-based systems | Custom | IN | Not applicable |
+
+## India-Specific Competitors (added 2026-06-04)
+| Competitor | Primary Product | Strongest Region | Battlecard Status |
+|-----------|----------------|-----------------|------------------|
+| SAP TM / S/4HANA | TMS (ERP-extended) | IN (large enterprise) | Not built |
+| Oracle OTM | TMS | IN (large enterprise) | Not built |
+| Infor CloudSuite | TMS + WMS | IN | Not built |
+| FarEye | Last-mile delivery platform | IN | Not built |
+| Locus | Route optimisation / AI dispatch | IN | Not built |
 
 ## Update Rule
 After running the competitive intel agent for any competitor,

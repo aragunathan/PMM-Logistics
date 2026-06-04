@@ -1,7 +1,7 @@
 # Skill 08 — Regional SEO Content
 ## Ramco Logistics Software | Acquisition
 
-> **Purpose:** Build and execute a regional SEO content programme that drives qualified organic traffic from 3PL decision-makers searching for logistics software, TMS, WMS, and fleet management solutions across Australia, Indonesia, Saudi Arabia, and Philippines — converting that traffic into leads that enter the Ramco pipeline.
+> **Purpose:** Build and execute a regional SEO content programme that drives qualified organic traffic from 3PL decision-makers searching for logistics software, TMS, WMS, and fleet management solutions across Australia, Indonesia, Saudi Arabia, Philippines, and India — converting that traffic into leads that enter the Ramco pipeline.
 > **Output:** A published content library of 4–6 articles per region per quarter, optimised for high-intent logistics software keywords, ranking in the top 10 for target terms within 6–12 months, generating organic MQLs tracked in HubSpot with full attribution.
 > **Owner:** Demand Gen / Content Lead (strategy and production) + Web / Technical SEO (on-page and technical) + Regional Sales Lead (validates regional relevance before publish)
 > **Estimated time to complete:** 12–16 hours for initial programme setup; 3–4 hours per published article ongoing
@@ -36,7 +36,7 @@ At a 180+ day enterprise sales cycle, a prospect researching logistics software 
 - Produce results in under 90 days — new content typically takes 3–6 months to rank; plan accordingly
 - Replace outbound for T1 account acquisition — SEO catches inbound interest, outbound creates conversations with accounts that aren't searching yet
 
-**Content volume target:** 4–6 articles per region per quarter = 16–24 articles published across all four regions per quarter. This is the minimum viable volume to build meaningful organic visibility within 12 months.
+**Content volume target:** 4–6 articles per region per quarter = 20–30 articles published across all five regions per quarter. This is the minimum viable volume to build meaningful organic visibility within 12 months.
 
 ---
 
@@ -196,6 +196,24 @@ All six pages link to each other. The pillar links to all supporting articles. S
 | last mile delivery software Philippines | 100–200 | Low | Commercial |
 | e-commerce logistics software Philippines | 150–300 | Low | Commercial |
 | 3PL technology Philippines | 100–200 | Low | Informational |
+
+**India — Priority Keywords (English; no Hindi variants needed for enterprise B2B):**
+| Keyword | Est. Monthly Volume (IN) | KD | Intent |
+|---------|--------------------------|-----|--------|
+| TMS software India | 200–500 | Low–Medium | Commercial |
+| 3PL software India | 100–300 | Low | Commercial |
+| logistics management software India | 300–600 | Low–Medium | Commercial |
+| transport management system India | 150–400 | Low | Commercial |
+| WMS software India | 150–300 | Low | Commercial |
+| warehouse management system India | 200–400 | Low–Medium | Commercial |
+| fleet management software India | 300–600 | Medium | Commercial |
+| GST e-way bill automation software | 200–500 | Low | Commercial |
+| e-way bill management system | 300–700 | Low | Commercial |
+| logistics software for 3PL India | 100–200 | Low | Commercial |
+| supply chain software India | 300–600 | Medium | Commercial |
+| logistics technology India | 400–800 | Medium | Informational |
+| National Logistics Policy India technology | 100–300 | Low | Informational |
+| FASTag integration logistics | 100–200 | Low | Commercial |
 
 ---
 
@@ -549,6 +567,42 @@ Use Ahrefs to find pages on logistics-related websites that link to a broken URL
 
 ---
 
+#### India
+
+**Language strategy:**
+- Produce English content only — English is the primary B2B professional language in Indian enterprise logistics; C-suite and IT decision-makers at large Indian 3PLs read and search in English for enterprise software. No Hindi or regional language variants are required for Ramco's target audience at this ICP level.
+- Tone: Authoritative, technically credible, and specific to Indian regulatory and operational context. Indian logistics professionals are sophisticated readers — avoid condescending explanations of concepts they know well. Lead with specific regulatory hooks (GST, e-way bill, GSTN API) that signal market understanding.
+
+**Regional content angles that perform strongly:**
+- GST and e-way bill automation: "How Indian 3PLs Are Automating GST E-Way Bill Management at Scale" — this is the highest-intent content category for Indian operations personas; every 3PL above ₹800 Cr revenue is managing thousands of e-way bills monthly, and manual management is a genuine pain point. Content here faces near-zero competition from software vendors.
+- National Logistics Policy alignment: "India's National Logistics Policy and What It Means for 3PL Technology Buyers" — policy-aligned content that positions Ramco as a vendor that understands the Indian logistics modernisation agenda. Resonates with CEO persona facing board-level modernisation pressure.
+- PM Gati Shakti and multimodal logistics: "How PM Gati Shakti Is Reshaping Multimodal Logistics in India — A 3PL Perspective" — educational content with low competition and high strategic relevance for companies seeking government tender opportunities.
+- India logistics cost benchmarking: "Why India's Logistics Costs Are 14% of GDP — And What 3PLs Can Do About It" — data-led thought leadership that frames the cost efficiency narrative and positions Ramco as part of the solution. Links directly to CEO desired outcomes.
+- E-commerce 3PL scaling: "How Indian 3PLs Are Managing E-Commerce Volume Surges Without Scaling Headcount" — Flipkart, Meesho, and Amazon India volume spikes are real operational challenges; content specific to this context will outrank generic global logistics content.
+
+**Indian SEO notes:**
+- Google dominates search in India — Bing is negligible; optimise for Google only
+- Mobile-first: India is one of the world's largest mobile-internet markets; all content pages must load fast on 4G and be fully readable on small screens
+- Keyword research: Use Google Keyword Planner with language set to English and location set to India for the most accurate volume data. Ahrefs data for India is improving but cross-reference with Google Keyword Planner.
+- GST and e-way bill content: these terms have high search volume and low content quality in the current SERP — most existing content is from compliance portals, not software vendors. Ramco has a first-mover opportunity here.
+
+**Local sources to cite:**
+- Ministry of Commerce and Industry — logistics sector policy data
+- DPIIT (Department for Promotion of Industry and Internal Trade) — National Logistics Policy documentation
+- GSTN (Goods and Services Tax Network) — e-way bill statistics and compliance data
+- CII (Confederation of Indian Industry) — logistics sector reports
+- World Bank India Logistics Performance Index
+- Economic Survey (Finance Ministry) — logistics cost as % of GDP data
+
+**Pillar content priority for India:**
+1. "Logistics Software for 3PLs in India — The Complete Buyer's Guide"
+2. "TMS Software India — What 3PL Operators Need to Know in 2026"
+3. "GST E-Way Bill Automation — How Indian 3PLs Are Eliminating Manual Compliance"
+4. "India's National Logistics Policy — What It Means for 3PL Technology Investment"
+5. "Warehouse Management System India — A Guide for Multi-Client 3PL Operators"
+
+---
+
 ### STEP 8: HubSpot Setup for SEO Content Tracking
 **Time:** 90 minutes | **Owner:** Marketing Ops / HubSpot Admin
 
@@ -561,7 +615,7 @@ Navigate to: **HubSpot → Settings → Properties → Contact Properties**
 | Organic Entry Page | organic_entry_page | Single-line text | Auto-populated via HubSpot tracking |
 | Organic Search Keyword (if available) | organic_search_keyword | Single-line text | Populated from Search Console integration if available |
 | Content Topic Category | content_topic_category | Dropdown | TMS, WMS, Fleet Management, 3PL Technology, Compliance, Operational Efficiency, Regional Market |
-| Content Region | content_region | Dropdown | Australia, Indonesia, Saudi Arabia, Philippines, Global |
+| Content Region | content_region | Dropdown | Australia, Indonesia, Saudi Arabia, Philippines, India, Global |
 | SEO Lead Persona | seo_lead_persona | Dropdown | Technology, Operations, CEO, Unknown |
 | Content Download (last) | last_content_download | Single-line text | Name of most recently downloaded asset |
 
@@ -602,6 +656,7 @@ Navigate to: **HubSpot → Contacts → Lists → Create List → Active List**
 | `SEO | Organic Leads | Indonesia` | Original Source = Organic Search AND Content Region = Indonesia |
 | `SEO | Organic Leads | Saudi Arabia` | Original Source = Organic Search AND Content Region = Saudi Arabia |
 | `SEO | Organic Leads | Philippines` | Original Source = Organic Search AND Content Region = Philippines |
+| `SEO | Organic Leads | India` | Original Source = Organic Search AND Content Region = India |
 | `SEO | Organic MQLs | All Regions` | Original Source = Organic Search AND Lifecycle Stage = MQL |
 | `SEO | High Intent | Demo Requested` | Original Source = Organic Search AND any demo form submission |
 | `SEO | Content Downloaders | All` | Original Source = Organic Search AND Last Content Download is known |

@@ -10,7 +10,8 @@
       "WebFetch(domain:www.ramco.com)",
       "WebSearch",
       "Bash(chmod +x C:/ClaudeCode/Clones/PMM-Logistics/scripts/run-product-launch.sh)",
-      "Bash(chmod +x C:/ClaudeCode/Clones/PMM-Logistics/scripts/run-case-study.sh)"
+      "Bash(chmod +x C:/ClaudeCode/Clones/PMM-Logistics/scripts/run-case-study.sh)",
+      "Bash(git push *)"
     ]
   }
 }

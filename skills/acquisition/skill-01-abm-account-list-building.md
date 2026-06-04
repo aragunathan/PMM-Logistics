@@ -1,7 +1,7 @@
 # Skill 01 — ABM Account List Building
 ## Ramco Logistics Software | Acquisition
 
-> **Purpose:** Build a prioritized, researched, and CRM-ready list of 3PL target accounts across Australia, Indonesia, Saudi Arabia, and Philippines.
+> **Purpose:** Build a prioritized, researched, and CRM-ready list of 3PL target accounts across Australia, Indonesia, Saudi Arabia, Philippines, and India.
 > **Output:** Tiered account list (T1/T2/T3) loaded into HubSpot with custom properties populated, ready for SDR sequencing and paid campaign audience upload.
 > **Owner:** Demand Gen / Marketing Ops
 > **Estimated time to complete:** 5–8 hours per region for initial build; 2 hours/month for ongoing maintenance
@@ -145,6 +145,30 @@ Use the sources below in sequence. Cross-reference to deduplicate. Log each acco
 
 ---
 
+#### India
+
+**LinkedIn Sales Navigator search string:**
+- Industry: Logistics & Supply Chain / Transportation, Trucking & Railroad
+- Geography: India
+- Company headcount: 501–1000, 1001–5000, 5001–10000
+- Keywords: "logistics" OR "3PL" OR "warehousing" OR "distribution" OR "transport" OR "freight"
+
+**Priority directories and sources:**
+- **Confederation of Indian Industry (CII)** — cii.in — logistics and supply chain committee members
+- **ASSOCHAM** — assocham.org — member directory for logistics and transport companies
+- **All Cargo Transporters Organisation (ACTO)** — freight and logistics operator directory
+- **BSE / NSE listed companies** — search "logistics" and "transport" in sector classification; listed companies (Mahindra Logistics, TCI Express, Allcargo, Blue Dart, Delhivery) have public revenue data and cleaner contact information
+- **Economic Times / Business Standard** — search for annual "Top 3PL companies in India" rankings and coverage
+- **LinkedIn Company Search** — search "3PL India", "contract logistics India", "integrated logistics India"
+- **Tracxn / Crunchbase** — for funded logistics companies with verified revenue data
+- Known large Indian 3PLs to include as reference: Mahindra Logistics, TCI Express, Allcargo Logistics, Blue Dart (FedEx), DHL Supply Chain India, Delhivery (enterprise division), Safexpress, VRL Logistics, DTDC, Gati Ltd, Spoton Logistics, XpressBees (B2B division), Ecom Express, Shadowfax (enterprise)
+
+**Note:** Revenue data for Indian private companies is often unavailable or stated in INR. Use ₹800 Cr+ as the revenue floor (approximately $100M USD). For listed companies, check annual reports. For private companies, use employee count (500+) and number of warehouse/hub locations as proxies. LinkedIn penetration for Indian logistics executives is high at C-suite level.
+
+**Target account volume:** 80–120 accounts; tier down to 40–60 after scoring
+
+---
+
 ### STEP 3: Enrich Account Data
 **Time:** 2–3 hours per region | **Owner:** Marketing Ops or SDR
 
@@ -212,7 +236,7 @@ Create the following custom properties if they don't already exist:
 | Property Label | Internal Name | Field Type | Options / Notes |
 |---------------|--------------|------------|-----------------|
 | ABM Account Tier | abm_account_tier | Dropdown | T1, T2, T3, Disqualified |
-| ABM Region | abm_region | Dropdown | Australia, Indonesia, Saudi Arabia, Philippines |
+| ABM Region | abm_region | Dropdown | Australia, Indonesia, Saudi Arabia, Philippines, India |
 | Operation Types | operation_types | Checkboxes | Transport, Warehousing, Fleet, Hub Management, Customs |
 | Estimated Annual Revenue (USD) | estimated_revenue_usd | Number | |
 | ABM List Status | abm_list_status | Dropdown | In Progress, Approved, Active, Paused, Archived |
@@ -269,6 +293,7 @@ Create the following lists:
 - `ABM | T1 | Indonesia` — Filter: ABM Account Tier = T1 AND ABM Region = Indonesia
 - `ABM | T1 | Saudi Arabia` — Filter: ABM Account Tier = T1 AND ABM Region = Saudi Arabia
 - `ABM | T1 | Philippines` — Filter: ABM Account Tier = T1 AND ABM Region = Philippines
+- `ABM | T1 | India` — Filter: ABM Account Tier = T1 AND ABM Region = India
 - `ABM | T2 | All Regions` — Filter: ABM Account Tier = T2
 - `ABM | All Active Accounts` — Filter: ABM List Status = Active
 
@@ -398,12 +423,12 @@ Raw data:
 
 Formatting rules:
 1. Standardize company names: remove "Pty Ltd", "Inc.", "Co., Ltd" etc. for the display name; keep legal name in a separate column
-2. Standardize country names to: Australia, Indonesia, Saudi Arabia, Philippines
+2. Standardize country names to: Australia, Indonesia, Saudi Arabia, Philippines, India
 3. Standardize job titles to match these persona categories:
    - Technology Persona: CIO, VP IT, Director IT, Head of IT, IT Manager (senior)
    - Operations Persona: COO, VP Operations, Head of Transportation, Head of Warehousing, General Manager Operations
    - CEO Persona: CEO, President, Managing Director, Owner, Founder
-4. Format all phone numbers in E.164 international format (+61, +62, +966, +63)
+4. Format all phone numbers in E.164 international format (+61, +62, +966, +63, +91)
 5. Validate website URLs (add https:// if missing, remove trailing slashes)
 6. Assign ABM Account Tier based on these rules:
    - T1: Revenue $300M+ OR employee count 500+ with complex multi-modal operations

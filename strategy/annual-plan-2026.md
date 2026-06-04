@@ -945,6 +945,7 @@ Owner: Outbound person (customer outreach after PMM provides review template)
 1. **$40M TCV confirmed. Average contract term = 5 years confirmed.** TCV per deal = $150K ACV × 5 years = $750K. ~53 total qualified opportunities needed for the year. ~19 from marketing (35%). Achievable at current team and budget levels. No further action needed on this assumption.
 2. **2025 top channels (Events and Organic) remain high-performers in 2026.** If ANZ event calendar shifts significantly or organic rankings drop (competitor content surge), the plan needs rebalancing.
 3. **Philippines is not a 2026 marketing priority.** Confirmed: 2026 focus is ANZ, Indonesia, and Saudi Arabia. Philippines returns to the plan in 2027 if ANZ playbook is proven.
+5. **India is added as a fifth region from H2 2026.** India entry strategy to be defined separately. Initial focus: ABM outbound to top 20 Indian 3PLs, Google Ads with GST/e-way bill compliance hooks, and identification of a referenceable Indian customer.
 4. **Email domain authentication can be fixed in Q1.** If the sending domain has been blacklisted or penalised, fix timeline extends. Outbound contribution to pipeline in Q1/Q2 may be near zero until resolved. Treat Q1 outbound as a rebuild quarter, not a pipeline quarter.
 
 ---

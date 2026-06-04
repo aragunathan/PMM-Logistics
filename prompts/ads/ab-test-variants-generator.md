@@ -14,7 +14,7 @@ Current text: [REPLACE WITH EXACT TEXT]
 Current CTR: [REPLACE WITH YOUR CTR]
 Campaign: [REPLACE: e.g. TMS — Australia]
 Persona: [REPLACE: CIO / COO / CEO]
-Region: [REPLACE: Australia / Indonesia / Saudi Arabia]
+Region: [REPLACE: Australia / Indonesia / Saudi Arabia / Philippines / India]
 
 Generate:
 5 headline variants OR 3 description variants to A/B test

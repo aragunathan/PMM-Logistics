@@ -1,7 +1,7 @@
 # LinkedIn Ad Copy — Complete Library and Generator
 ## Ramco Logistics Software | Paid Ads
 
-> **Purpose:** Ready-to-use LinkedIn ad copy for all three personas × all four regions × multiple ad formats. Use the copy sets directly or use the generator prompts at the end of this file to produce new variants.
+> **Purpose:** Ready-to-use LinkedIn ad copy for all three personas × all five regions × multiple ad formats. Use the copy sets directly or use the generator prompts at the end of this file to produce new variants.
 > **Formats covered:** Sponsored Content (Single Image), Lead Gen Form (LGF), Message Ad (InMail), Conversation Ad opening, Video Ad script
 > **Rules applied to all copy:**
 > - Never open intro text with "Ramco", "We", or "I"
@@ -395,6 +395,91 @@
 *CTA Button (20 chars):* Send the Documentation
 
 ---
+
+## INDIA — Technology Persona
+
+### [SC] Sponsored Content — Set 1
+**Angle: Compliance-led (GST / e-way bill)**
+
+*Intro text (147 chars):*
+> Indian 3PL IT teams managing GST e-way bill at scale know the GSTN portal breaks when you need it most — rerouted vehicles, expired bills, bulk amendment queues that take hours to clear.
+
+*Headline (66 chars):*
+> GSTN API Integration for Indian 3PL IT — End the Manual Fix
+
+*Description (58 chars):*
+> Automated e-way bill generation, amendment, and reconciliation.
+
+*CTA Button:* Learn More
+
+---
+
+### [SC] Sponsored Content — Set 2
+**Angle: Data residency / regulatory-led**
+
+*Intro text (146 chars):*
+> RBI and MEITY data residency guidance is shaping where Indian logistics platforms can store operational data. Your hosting architecture is an IT decision, not just a legal one.
+
+*Headline (64 chars):*
+> Data Residency for Indian 3PL IT — AWS Mumbai or Azure India
+
+*Description (59 chars):*
+> Hosted in India. Aligned with RBI and MEITY frameworks.
+
+*CTA Button:* Download
+
+---
+
+### [SC] Sponsored Content — Set 3
+**Angle: Platform consolidation-led**
+
+*Intro text (143 chars):*
+> Most large Indian 3PLs run TMS, WMS, fleet tracking, and billing on separate systems — with a custom integration layer no one fully owns anymore. That architecture has a cost.
+
+*Headline (67 chars):*
+> One Logistics Platform for Indian 3PL IT — No More Custom Middleware
+
+*Description (57 chars):*
+> Integrated TMS, WMS, Fleet, and Billing. GSTN API included.
+
+*CTA Button:* Learn More
+
+---
+
+### [LGF] Lead Gen Form
+**Offer: Indian 3PL IT Evaluation Guide — GST Compliance, Data Residency, and Platform Integration**
+
+*Intro text (148 chars):*
+> Before shortlisting any logistics platform in India, IT leaders need answers on GSTN API integration, RBI/MEITY data residency, and ERP connectivity. This guide covers all three.
+
+*Headline (61 chars):*
+> Indian 3PL IT Platform Evaluation Guide — 2026 Edition
+
+*CTA Button:* Download
+
+*Form headline:* Get the Indian 3PL IT Platform Evaluation Guide
+*Form description (155 chars):* Covers GST e-way bill API integration, FASTag reconciliation, RBI/MEITY data residency options, and the right questions to ask any logistics platform vendor in India.
+*Thank-you message (147 chars):* Your guide is on its way. If you'd like a 30-minute technical walkthrough specific to your environment, reply to the email with a preferred time.
+
+---
+
+### [MA] Message Ad — ABM Layer 1 Only
+**Sender: Vikram Nair, Country Head India, Ramco Systems**
+
+*Subject (54 chars):* Indian 3PL platform evaluation — for IT leaders
+
+*Body (498 chars):*
+> [First Name], I work with IT leaders at large 3PL companies across India on platform evaluation and logistics technology architecture.
+>
+> Two things come up in every conversation: how to handle GST e-way bill generation and amendment at scale without manual GSTN portal intervention, and how to consolidate TMS and WMS data into a single model the ERP can trust.
+>
+> I've prepared a technical brief on both — specific to the Indian regulatory and ERP environment. Happy to send it or arrange a 30-minute architecture conversation.
+>
+> Worth a reply?
+
+*CTA Button (18 chars):* Send the Brief
+
+---
 ---
 
 # PERSONA 2 — OPERATIONS (COO / VP Ops / Head of Transport / Head of Warehousing)
@@ -752,6 +837,91 @@
 *CTA Button (18 chars):* Book the 20 Minutes
 
 ---
+
+## INDIA — Operations Persona
+
+### [SC] Sponsored Content — Set 1
+**Angle: GST / e-way bill operations pain**
+
+*Intro text (149 chars):*
+> Every rerouted vehicle in your India fleet is a potential e-way bill expiry. Every expiry is a manual GSTN portal amendment. Multiply that across a month of operations and the team hours add up fast.
+
+*Headline (64 chars):*
+> Stop the Manual E-Way Bill Backlog in Indian 3PL Operations
+
+*Description (60 chars):*
+> Automated e-way bill management built into your TMS workflow.
+
+*CTA Button:* Learn More
+
+---
+
+### [SC] Sponsored Content — Set 2
+**Angle: Multi-modal visibility-led**
+
+*Intro text (146 chars):*
+> Indian 3PL operations running road, rail, and coastal freight need one platform that sees all three — not a different screen for each mode and a spreadsheet to reconcile them.
+
+*Headline (66 chars):*
+> Multi-Modal Freight Visibility for Indian 3PL Operations Teams
+
+*Description (58 chars):*
+> Road. Rail. Coastal. One operational view. Real-time.
+
+*CTA Button:* Learn More
+
+---
+
+### [SC] Sponsored Content — Set 3
+**Angle: E-commerce growth / festive season scaling**
+
+*Intro text (147 chars):*
+> India's festive season — Navratri, Diwali, Dhanteras — adds 3–5× volume to 3PLs supporting Meesho, Flipkart, and quick commerce. The ones absorbing it without proportional headcount growth run automated operations beneath the surface.
+
+*Headline (65 chars):*
+> Scale Indian 3PL Festive Volume Without Growing Your Team
+
+*Description (57 chars):*
+> See how leading Indian 3PLs manage seasonal peaks.
+
+*CTA Button:* Learn More
+
+---
+
+### [LGF] Lead Gen Form
+**Offer: Indian 3PL Operations Playbook — GST E-Way Bill, Multi-Modal Visibility, and Festive Season Scaling**
+
+*Intro text (148 chars):*
+> Indian 3PL operations leaders deal with GST e-way bill compliance, multi-modal route management, and festive season volume surges simultaneously. This playbook addresses all three.
+
+*Headline (60 chars):*
+> Indian 3PL Operations Playbook — 2026 Edition
+
+*CTA Button:* Download
+
+*Form headline:* Get the Indian 3PL Operations Playbook
+*Form description (155 chars):* Covers GST e-way bill automation, FASTag toll reconciliation, multi-modal freight visibility, and how to scale festive season operations without adding permanent headcount.
+*Thank-you message (148 chars):* Your playbook is on its way. If you'd like a 20-minute demo specific to Indian 3PL operations, reply to the email with a preferred time.
+
+---
+
+### [MA] Message Ad — ABM Layer 1 Only
+**Sender: Priya Krishnan, Business Development India, Ramco Systems**
+
+*Subject (57 chars):* Indian 3PL operations platform — a 20-minute walkthrough
+
+*Body (492 chars):*
+> Hi [First Name], I work with operations heads at large 3PL companies across India on transport visibility, GST compliance automation, and billing consolidation.
+>
+> Two things come up in almost every conversation: how to handle GST e-way bill amendments at scale when vehicles are rerouted, and how to manage billing reconciliation after festive season volume surges without a team working overtime for two weeks.
+>
+> I'd like to show you in 20 minutes how Indian 3PLs at your scale are running this in one platform.
+>
+> Worth it?
+
+*CTA Button (18 chars):* Book the 20 Minutes
+
+---
 ---
 
 # PERSONA 3 — CEO / PRESIDENT / MANAGING DIRECTOR
@@ -1083,6 +1253,91 @@
 *CTA Button (17 chars):* Book 15 Minutes
 
 ---
+
+## INDIA — CEO Persona
+
+### [SC] Sponsored Content — Set 1
+**Angle: Logistics cost / margin-led**
+
+*Intro text (148 chars):*
+> India's logistics cost runs at 13–14% of GDP. The 3PL CEOs changing that number for their own P&L are the ones consolidating fragmented systems into a single platform before it becomes urgent.
+
+*Headline (65 chars):*
+> The Indian 3PL CEO's Platform — Built to Close the Margin Gap
+
+*Description (57 chars):*
+> See how India's leading operators are cutting cost per shipment.
+
+*CTA Button:* Learn More
+
+---
+
+### [SC] Sponsored Content — Set 2
+**Angle: National Logistics Policy / Gati Shakti**
+
+*Intro text (147 chars):*
+> PM Gati Shakti and the National Logistics Policy create a real mandate for 3PL digitisation. For BSE and NSE-listed logistics companies, it is also an analyst narrative about margin improvement.
+
+*Headline (67 chars):*
+> Building Digital Infrastructure for India's Logistics Policy Mandate
+
+*Description (59 chars):*
+> How India's 3PL leaders are responding to the NLP mandate.
+
+*CTA Button:* Read More
+
+---
+
+### [SC] Sponsored Content — Set 3
+**Angle: Competitive differentiation / enterprise contracts**
+
+*Intro text (146 chars):*
+> India's top enterprise shippers — Tata, Mahindra, Reliance, major e-commerce platforms — are beginning to score 3PL tenders on digital capability. The 3PLs winning those tenders have made a platform decision.
+
+*Headline (65 chars):*
+> Win More Enterprise Contracts With Digital 3PL Infrastructure
+
+*Description (57 chars):*
+> How Indian 3PLs are closing the digital capability gap.
+
+*CTA Button:* Read More
+
+---
+
+### [LGF] Lead Gen Form
+**Offer: India 3PL CEO Guide — Digital Infrastructure for the National Logistics Policy Era**
+
+*Intro text (148 chars):*
+> India's National Logistics Policy and PM Gati Shakti mandate a new level of digital maturity from logistics operators. This guide covers what it means for 3PL CEOs — and what to do now.
+
+*Headline (61 chars):*
+> India 3PL CEO Guide — Digital Infrastructure for the NLP Era
+
+*CTA Button:* Download
+
+*Form headline:* Get the India 3PL CEO's Digital Infrastructure Guide
+*Form description (155 chars):* Covers the National Logistics Policy mandate, how BSE/NSE-listed 3PL companies are responding, the ROI of platform consolidation, and what India's enterprise shippers are now requiring.
+*Thank-you message (148 chars):* Your guide is on its way. If a 15-minute direct conversation with our India Country Head would be useful, reply and I'll arrange it.
+
+---
+
+### [MA] Message Ad — ABM Layer 1 Only
+**Sender: Arun Sharma, Country Head India, Ramco Systems**
+
+*Subject (52 chars):* India logistics market — 15 minutes with our India head
+
+*Body (496 chars):*
+> Dear [First Name], I lead Ramco's business in India.
+>
+> I'm reaching out to a small group of 3PL owners and CEOs about something I see consistently: enterprise clients — Tata group, Reliance, major e-commerce platforms — are beginning to score logistics tenders on digital capability alongside price and service level.
+>
+> The 3PLs winning those tenders — and narrowing India's 13–14% logistics cost burden for their own P&L — have made a specific platform investment.
+>
+> Worth 15 minutes to compare notes?
+
+*CTA Button (17 chars):* Book 15 Minutes
+
+---
 ---
 
 # RETARGETING AD COPY
@@ -1238,7 +1493,7 @@ Rules:
 - Never open intro text with "Ramco", "We", or "I"
 - No superlatives of any kind
 - Every ad must reference a specific [REGION] logistics context — not a generic global statement
-- If region is Indonesia or Saudi Arabia, also provide one Bahasa Indonesia / Arabic translation of the strongest English variant
+- If region is Indonesia or Saudi Arabia, also provide one Bahasa Indonesia / Arabic translation of the strongest English variant (India uses English only — no local language translation required)
 - Label each variant: Pain-led / Outcome-led / Proof-led / Curiosity-led
 - After all variants, recommend which two to A/B test first and why
 ```

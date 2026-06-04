@@ -18,7 +18,7 @@ Retargeting keeps Ramco visible throughout the entire evaluation window.
 - LinkedIn Campaign Manager account
 - LinkedIn Insight Tag installed on ramco.com
 - HubSpot connected to both Google Ads and LinkedIn
-- Regions in scope: Australia, Indonesia, Saudi Arabia
+- Regions in scope: Australia, Indonesia, Saudi Arabia, Philippines, India
 - Modules in scope: TMS, WMS
 - Conversion goal: Book a Demo
 

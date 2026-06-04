@@ -11,7 +11,7 @@ Wrong keywords = wasted budget at $150k+ ACV enterprise level.
 ## Inputs Required
 - Google Keyword Planner (inside Google Ads account)
 - SEMrush or Ahrefs for competitor gap analysis
-- Regions in scope: Australia, Indonesia, Saudi Arabia
+- Regions in scope: Australia, Indonesia, Saudi Arabia, Philippines, India
 - Modules in scope: TMS (Transport Management), WMS (Warehouse Management)
 - Conversion goal: Book a Demo
 
@@ -27,7 +27,7 @@ At $150k+ ACV you want LOW volume, HIGH intent, HIGH specificity keywords.
 
 ## Overview
 
-This skill defines the Google Ads keyword research framework for Ramco Logistics Software targeting 3PL companies with $100M+ annual revenue across Australia, Indonesia, Saudi Arabia, and the Philippines. All campaigns are sales-led with ABM intent, targeting high-value decision-makers (CIO, COO, CEO).
+This skill defines the Google Ads keyword research framework for Ramco Logistics Software targeting 3PL companies with $100M+ annual revenue across Australia, Indonesia, Saudi Arabia, the Philippines, and India. All campaigns are sales-led with ABM intent, targeting high-value decision-makers (CIO, COO, CEO).
 
 ---
 
@@ -171,6 +171,7 @@ Apply these negatives across all campaigns to prevent wasted spend:
 | Indonesia | English + Bahasa | IDR | Lower CPC; include English as primary |
 | Philippines | English | PHP | English dominant for enterprise buyers |
 | Saudi Arabia | English + Arabic | SAR | Arabic ad variants recommended for Tier 2 |
+| India | English | INR | English only — no Hindi variants needed for enterprise 3PL buyers; GST/e-way bill compliance is primary content hook |
 
 ---
 
@@ -298,6 +299,32 @@ Arabic keyword variants (run in separate ad group):
 - "نظام إدارة المستودعات للشركات اللوجستية" [Phrase]
 - "برنامج إدارة الأسطول السعودية" [Phrase]
 - "حلول اللوجستيات للشركات السعودية" [Phrase]
+
+### India Modifiers
+Add these to every Tier 1 keyword:
+- "India"
+- "Mumbai"
+- "Delhi"
+- "Bangalore"
+- "Chennai"
+- "Pune"
+
+Full examples:
+- "TMS software India" [Exact]
+- "logistics management software Mumbai" [Exact]
+- "warehouse management system India 3PL" [Phrase]
+- "3PL software Bangalore" [Exact]
+- "GST e-way bill automation software" [Exact]
+- "fleet management software India" [Phrase]
+
+Note: English only for India — do not create Hindi or regional language ad groups. Indian enterprise 3PL decision-makers search in English for B2B software solutions. This is confirmed by search volume data showing dominant English-language queries for TMS/WMS/logistics software terms in India.
+
+High-intent India-specific keywords (add these as Tier 1 for India campaigns):
+- "GST e-way bill management software" [Exact]
+- "e-way bill automation 3PL" [Exact]
+- "GSTN API integration logistics" [Phrase]
+- "TMS software India 3PL" [Exact]
+- "logistics software India enterprise" [Phrase]
 ---
 
 ## NEGATIVE KEYWORDS MASTER LIST

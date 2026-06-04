@@ -1,7 +1,7 @@
 # Skill 05 — Event Activation Playbook
 ## Ramco Logistics Software | Revenue
 
-> **Purpose:** Maximise pipeline generation and acceleration from every event Ramco participates in — trade shows, hosted roundtables, webinars, and industry dinners — across all four target regions.
+> **Purpose:** Maximise pipeline generation and acceleration from every event Ramco participates in — trade shows, hosted roundtables, webinars, and industry dinners — across all five target regions.
 > **Output:** Pre-event outreach sequences live 4–6 weeks before each event, at-event lead capture process operational on day one, post-event follow-up sequences enrolled within 24 hours of event close, and pipeline attributed in HubSpot within 5 business days.
 > **Owner:** Demand Gen + Regional Sales Lead (joint ownership — this skill fails if either side runs it alone)
 > **Estimated time to complete:** 6–8 hours of setup per event; 2–3 hours post-event processing
@@ -91,6 +91,15 @@ Not every event is worth attending. Use this scoring framework before committing
 - LogiSYM Philippines — regional logistics technology focus
 - Entrepreneur Philippines Logistics Summit
 - PMAP (People Management Association of the Philippines) — only if targeting HR/ops convergence messaging
+
+**India:**
+- CII Logistics Summit — New Delhi or Mumbai, annual; hosted by the Confederation of Indian Industry; strong CXO attendance from large 3PLs and manufacturing-side shippers
+- ACTO (Association of Container Train Operators) Annual Conference — relevant for 3PLs with rail freight operations
+- ASSOCHAM Supply Chain Leadership Summit — senior executive audience with strong financial services and FMCG logistics representation
+- LogiSYM India — regional logistics technology focus; growing audience in Bangalore and Mumbai editions
+- ET Supply Chain Forum (Economic Times) — strong CEO/CFO audience from listed logistics companies; high media visibility
+- India Warehousing Show — New Delhi and Mumbai editions; warehouse and 3PL operator audience
+- India Cold Chain Forum — relevant if targeting pharma or food logistics 3PLs (Mahindra Logistics, VRL, Safexpress all attend)
 
 ---
 
@@ -258,6 +267,7 @@ Hi [First Name], [Sender Name] from Ramco. Heading to [Event Name] on [day]. Sti
 - **Indonesia:** WhatsApp is dominant — use WhatsApp Business, not SMS
 - **Saudi Arabia:** WhatsApp is the primary channel — use WhatsApp; SMS feels impersonal
 - **Philippines:** Viber and WhatsApp both used; Viber is more common among older professionals
+- **India:** WhatsApp is the dominant business messaging channel at all levels; widely used for B2B scheduling and follow-up; SMS acceptable but WhatsApp preferred
 
 #### Build the Pre-Event Sequence in HubSpot
 
@@ -633,6 +643,37 @@ Present this report to the Sales Lead within 10 business days of event close. Us
 
 ---
 
+#### India
+
+**Pre-event outreach norms:**
+- Indian enterprise buyers at large 3PLs are highly networked within CII, ASSOCHAM, and logistics industry bodies — if Ramco has a relationship with these associations, use that connection as a warm introduction anchor in pre-event outreach
+- LinkedIn is widely used by logistics CXOs and VPs in India; a LinkedIn connection request referencing the event and a specific operational or compliance challenge (GST e-way bill, multi-modal visibility) is the strongest first touch
+- Outreach should be in English at CIO/COO/CEO level; no Hindi or regional language required for enterprise audience
+- Indian senior executives respond well to peer-to-peer outreach — where possible, pre-event outreach from Ramco's India country head or a named senior executive performs significantly better than generic demand gen messaging
+- Begin outreach 5–6 weeks before large events (CII, ASSOCHAM summits); 3–4 weeks for mid-tier events
+
+**At-event behaviour:**
+- Indian business events at the CXO level tend to be formal in the opening then warm once rapport is established — lead with professional credibility before moving to relationship-building tone
+- Business card exchange is still standard practice at senior Indian events — have cards printed with India-appropriate details (include Ramco's India office address if it exists)
+- Reference local market knowledge — showing understanding of India-specific logistics complexity (GST e-way bill, FASTag, PM Gati Shakti, multi-modal challenges) signals that Ramco is a credible partner, not a foreign vendor with a generic pitch
+- CII and ASSOCHAM members often know each other — name mutual contacts where appropriate; referencing shared network connections is a trust accelerator in Indian business culture
+- Decision-making authority at Indian 3PLs is increasingly in the hands of professional CXO hires, particularly at BSE/NSE-listed companies — respect the organisational hierarchy and do not attempt to go over a VP's head without their awareness
+
+**Post-event timing:**
+- Follow-up within 24–48 hours is appropriate and expected
+- WhatsApp follow-up after the event is well-received if business cards were exchanged or a meeting was held — "Great meeting you at [Event], [First Name]. Would be happy to share our GST compliance capability overview when convenient."
+- Formal email follow-up should reference a specific detail from the conversation, not a generic "it was great to meet you" — Indian executives receive many such messages post-event and specificity is what creates differentiation
+- If a senior executive was met, a follow-up call from the Ramco India country head or regional director within the same week adds significant weight
+
+**Local events calendar:**
+- Diwali / festive season (October–November) — business activity does not stop but decision timelines slow in the fortnight around Diwali; events scheduled in October should plan follow-up for post-Diwali window
+- Republic Day (January 26) and Independence Day (August 15) — public holidays; no events or outreach on these dates
+- Financial year-end (March) — Indian companies close their financial year March 31; budget decisions often accelerate in January–February and then slow in March as teams focus on year-end close; plan event-driven pipeline acceleration accordingly
+- Holi (February/March, date varies) — public holiday; 2–3 day business slowdown in North India particularly
+- State-specific holidays vary significantly (Maharashtra, Karnataka, Tamil Nadu, Delhi NCR all have different holiday calendars) — check the state calendar for the city where your event is held
+
+---
+
 ## HubSpot Setup Instructions
 
 ### Custom Properties to Create
@@ -932,7 +973,7 @@ Format the report for a 10-minute readout to the VP Marketing and Regional Sales
 | HubSpot CRM + Marketing Hub Pro | Lead capture, sequence enrollment, pipeline attribution, campaign reporting | Required |
 | HubSpot Mobile App | At-event lead capture and meeting note logging | Required |
 | LinkedIn Sales Navigator | Pre-event attendee identification, connection requests, at-event real-time lookup | Required |
-| WhatsApp Business | Pre-event and post-event outreach for Indonesia, Saudi Arabia, Philippines | Required for ID, SA, PH |
+| WhatsApp Business | Pre-event and post-event outreach for Indonesia, Saudi Arabia, Philippines, and India | Required for ID, SA, PH, IN |
 | Calendly or HubSpot Meetings | Meeting booking links in pre-event and post-event emails | Required |
 | Apollo.io | Enrichment for net-new contacts identified at the event | Required |
 | Google Sheets | Event target list staging and post-event lead segmentation | Required |

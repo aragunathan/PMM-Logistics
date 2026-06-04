@@ -1,7 +1,7 @@
 # Prompt — Competitive Battlecard Generator
 ## Ramco Logistics Software | Sales Enablement
 
-> **Purpose:** Equip reps with ready-to-use competitive intelligence for every named competitor they will encounter in a Ramco deal. Includes pre-built battlecards for the four most common competitive situations and Claude prompts for generating new battlecards as new competitors emerge.
+> **Purpose:** Equip reps with ready-to-use competitive intelligence for every named competitor they will encounter in a Ramco deal. Includes pre-built battlecards for the most common competitive situations across all five regions and Claude prompts for generating new battlecards as new competitors emerge.
 > **Owner:** Product Marketing (builds and maintains) + Sales Lead (approves) + Regional Reps (uses in-deal)
 > **Rule:** Never use a battlecard to attack a competitor — use it to reframe. The rep who disparages a competitor in front of the prospect looks insecure. The rep who asks the right landmine question lets the competitor disqualify themselves.
 > **Update cadence:** Quarterly. Log every competitive mention in HubSpot (custom property: `Competitor Mentioned`) so Product Marketing can track which battlecards need refreshing.
@@ -26,6 +26,8 @@
 | CargoWise (WiseTech Global) | AU, PH, ID (growing) | CIO / COO | $100M–$500M, freight forwarder + 3PL | Domestic TMS + WMS + Fleet depth; multi-client billing complexity; WMS maturity |
 | Oracle OTM | SA, AU | CIO | $250M+ 3PL revenue | 3PL purpose-fit; fleet management; implementation cost; multi-client billing |
 | Point solutions / status quo stack | All regions | COO / CEO | Any size | Single data model vs. integration overhead; billing accuracy; IT maintenance cost |
+| FarEye | India | CIO / COO | $50M–$250M 3PL (India mid-market) | Full platform depth (TMS+WMS+Fleet+Billing) vs. FarEye's last-mile/dispatch focus; GST e-way bill integration |
+| Locus | India | CIO / COO | $50M–$200M 3PL (India mid-market) | Integrated multi-client 3PL platform vs. Locus's route optimisation point solution; billing and WMS depth |
 
 ---
 
@@ -84,7 +86,7 @@ Do not argue that SAP is bad. Reframe each claim:
 | ERP integration | Pre-built SAP connectors (REST API) | Native (same ecosystem) | Acknowledge SAP's native advantage; counter with "we integrate with SAP and add the 3PL operational layer on top" |
 | Implementation timeline | 60–90 days for first module | 18–36 months typical for full TM/EWM | Get the prospect to ask their SAP team for a realistic timeline and SI cost |
 | Implementation cost (total) | Software licence + structured Ramco implementation | Software licence + SI fees (often 3–5× licence) | Total cost of ownership is the battleground; push for a full TCO comparison |
-| Regional support (AU/ID/SA/PH) | Dedicated regional teams in all 4 markets | Global support model; regional SI partners vary in quality | Ramco's local team presence is a real differentiator in Indonesia and Philippines |
+| Regional support (AU/ID/SA/PH/IN) | Dedicated regional teams in all 5 markets | Global support model; regional SI partners vary in quality | Ramco's local team presence is a real differentiator in Indonesia, Philippines, and India |
 | 3PL-specific product roadmap | Product roadmap driven by 3PL operator needs | Product roadmap driven by global enterprise ERP requirements | SAP's TM roadmap prioritises global shipper needs; 3PL features are secondary |
 | Cloud architecture | Cloud-native SaaS | S/4HANA Cloud available; on-premise still common in SA/AU | SAP cloud migration from legacy SAP TM is a project in itself; ask what version they're currently on |
 
@@ -154,6 +156,7 @@ Ask the prospect — do not mention SAP or any competitor by name:
 - **Indonesia:** SAP is present in conglomerate-linked 3PLs and multinational subsidiaries. Mid-market Indonesian 3PLs are less likely to be on SAP ERP; the consolidation argument is weaker here. Focus on purpose-built 3PL fit and local implementation team.
 - **Saudi Arabia:** SAP is deeply embedded in large Gulf enterprises. ZATCA and PDPL arguments work in SAP's favour — counter by demonstrating Ramco's ZATCA Phase 2 compliance is built in natively and does not require a ZATCA-specific SAP add-on. Request a side-by-side ZATCA compliance demo.
 - **Philippines:** SAP is less common in mid-market Philippine 3PLs at the $100M–$300M revenue level. If SAP appears in a Philippine deal, it is typically at a conglomerate-owned operator. Focus on implementation timeline, local team, and TCO.
+- **India:** SAP is deeply embedded in large Indian conglomerates and multinational subsidiaries operating in India. The key counter-argument in India deals is that SAP TM/EWM does not natively handle GST e-way bill generation and GSTN API integration at the scale Indian 3PLs require — this typically requires a third-party GST tool or ABAP customisation. Lead with GST compliance depth and implementation timeline. India CIOs at large 3PLs are technically sophisticated and will pressure-test this claim — be prepared with a live GSTN API integration demo.
 
 ---
 
@@ -286,6 +289,7 @@ CargoWise, owned by WiseTech Global (ASX: WTC), is the dominant platform for int
 - **Indonesia:** CargoWise is growing through the Indonesian freight forwarding community but is less established for domestic 3PL. Local support is a weakness here — Ramco's Jakarta team is a real advantage. Focus on domestic multi-modal (road + sea) depth and local compliance (UU PDP).
 - **Philippines:** CargoWise is present in Philippine freight forwarding but less common for domestic 3PL. SCMAP-connected operations leaders typically have exposure to CargoWise but evaluate Ramco on domestic ops depth and local presence.
 - **Saudi Arabia:** CargoWise has limited Saudi presence. If it appears, the deal likely has an international freight forwarding component. Use the "run both" story and focus Ramco's positioning on domestic operations, ZATCA compliance, and local support.
+- **India:** CargoWise has minimal presence in India's domestic 3PL market. If it appears, the deal has an international freight forwarding component. For Indian domestic 3PL operations, CargoWise has no GST e-way bill integration capability and no GSTN API connection — this is an immediate disqualifier for any Indian 3PL handling domestic taxable freight. Use this clearly.
 
 ---
 
@@ -418,6 +422,7 @@ Oracle OTM (Oracle Transportation Management) is Oracle's supply chain and trans
 - **Saudi Arabia:** Oracle is deeply embedded in Saudi enterprise. Expect Oracle in almost every large SA deal. Oracle's ZATCA and PDPL compliance story in the Gulf is genuine — do not attempt to compete on this alone. Win on 3PL purpose-fit, multi-client billing, fleet management, and Ramco's local team presence.
 - **Australia:** Oracle appears in larger AU deals ($250M+ 3PL) where the company is on Oracle ERP. Use the TCO comparison and 3PL purpose-fit arguments. AU procurement teams are methodical — push for a total implementation cost comparison early.
 - **Indonesia and Philippines:** Oracle is less common at the mid-market level in these markets. If Oracle appears, the deal is likely at a multinational subsidiary or a conglomerate with Oracle ERP as standard. Use the local support and implementation timeline arguments; these are more decisive than in SA or AU.
+- **India:** Oracle is present in large Indian conglomerates and multinational subsidiaries operating in India. The decisive counter-argument in India deals is GST e-way bill and GSTN API integration — Oracle OTM does not have native GSTN API integration, requiring a third-party GST compliance module or customisation. Lead with GST compliance, FASTag reconciliation depth, and Ramco's India-based implementation team. India CIOs at listed companies will also ask about data residency — confirm AWS Mumbai or Azure India hosting.
 
 ---
 
@@ -446,7 +451,7 @@ The most common competitive situation Ramco faces is not a named vendor — it i
 
 - **Deal size:** Any — this is the dominant competitive situation at $100M–$300M 3PL revenue
 - **Champion persona:** COO who has felt the pain and wants to fix it; CIO who has inherited a messy stack; CEO who has just lost a contract because the platform couldn't demonstrate digital capability
-- **Regions:** All four — point solutions stacks are universal at this revenue tier
+- **Regions:** All five — point solutions stacks are universal at this revenue tier
 - **Deal trigger:** Lost an enterprise RFP due to technology capability gap; billing team headcount is growing faster than revenue; a key IT person left and the integration layer they built and maintained is now a risk
 
 ---
@@ -590,7 +595,7 @@ Use these prompts to generate a new battlecard when a new competitor appears in 
 ### Prompt 1 — New Competitor Battlecard Generator
 
 ```
-You are a B2B competitive intelligence specialist for Ramco Systems — a logistics software company targeting 3PL operators with $100M+ annual revenue across Australia, Indonesia, Saudi Arabia, and Philippines.
+You are a B2B competitive intelligence specialist for Ramco Systems — a logistics software company targeting 3PL operators with $100M+ annual revenue across Australia, Indonesia, Saudi Arabia, Philippines, and India.
 
 Your task is to write a complete competitive battlecard for sales reps to use when the following competitor appears in a deal.
 
@@ -609,8 +614,8 @@ Ramco's primary differentiators:
 - Purpose-built for 3PL multi-client operations (not designed for shippers or manufacturers)
 - Single integrated platform: TMS + WMS + Fleet Management + Hub Management + Rating & Billing — one data model
 - Phased implementation: first module live in 60–90 days
-- Regional compliance built in: CoR (AU), UU PDP (ID), ZATCA + PDPL (SA), DPA RA 10173 (PH)
-- Local implementation teams in all 4 regions
+- Regional compliance built in: CoR (AU), UU PDP (ID), ZATCA + PDPL (SA), DPA RA 10173 (PH), GST/e-way bill + GSTN API + RBI/MEITY data residency (IN)
+- Local implementation teams in all 5 regions
 - Pre-built ERP integrations: SAP, Oracle
 
 [BATTLECARD STRUCTURE — follow this exactly]
@@ -623,7 +628,7 @@ Ramco's primary differentiators:
 7. Their Genuine Strengths (be honest — list 3–4 real strengths reps need to acknowledge)
 8. Win Themes (3 themes — what Ramco consistently wins on when this competitor is in the deal)
 9. Competitive Objections (3 objections with: what it really means + full conversational response)
-10. Regional Notes (one bullet per region — AU, ID, SA, PH — on how this competitor shows up differently in each market)
+10. Regional Notes (one bullet per region — AU, ID, SA, PH, IN — on how this competitor shows up differently in each market)
 11. Proof Point to Use (a specific reference story or metric — even if anonymised — that is most credible in a deal against this competitor)
 
 [RULES]

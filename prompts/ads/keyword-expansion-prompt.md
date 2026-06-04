@@ -13,7 +13,7 @@ The conversion goal is: Book a Demo.
 
 Generate a complete keyword list for:
 Module: [REPLACE WITH: TMS or WMS]
-Region: [REPLACE WITH: Australia / Indonesia / Saudi Arabia / Philippines]
+Region: [REPLACE WITH: Australia / Indonesia / Saudi Arabia / Philippines / India]
 
 Organize keywords into exactly these 3 groups:
 1. Tier 1 Buy-Intent (Exact Match + Phrase Match)
@@ -28,7 +28,7 @@ For every keyword include:
 
 Also generate:
 - Regional modifier variants (city names, country modifiers)
-- Local language variants if region is Indonesia (Bahasa) or Saudi Arabia (Arabic)
+- Local language variants if region is Indonesia (Bahasa) or Saudi Arabia (Arabic) — India uses English only, no local language variants required
 
 Output format: a table with columns:
 Keyword | Match Type | Intent | Ad Group | Language

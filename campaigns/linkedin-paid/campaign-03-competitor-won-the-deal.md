@@ -1,7 +1,7 @@
 # Campaign 03 — Competitor Won the Deal
 **Platform:** LinkedIn Paid
 **Primary Persona:** CEO / MD / President / Owner
-**Regions:** Australia | Indonesia | Saudi Arabia
+**Regions:** Australia | Indonesia | Saudi Arabia | Philippines | India
 **Layer:** L1 ABM (primary — CEO is hard to reach at L2 scale) + L2 Persona
 **Formats:** Sponsored Content + Message Ad + LGF (case study download)
 **Campaign ID prefix:** C03

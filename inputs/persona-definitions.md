@@ -134,6 +134,14 @@ In a 3PL business, the CIO is often stretched thin — managing legacy systems, 
 - Implementation bandwidth is a real concern — prefer phased rollouts and co-implementation support
 - BPO familiarity means IT leaders understand complex system integrations; can be technical peers
 
+### India
+- IT teams in large Indian 3PLs are sizeable (20–50 people) but often managing a mix of legacy ERP systems (SAP B1, Tally, custom-built systems) alongside newer SaaS tools — integration complexity is high
+- GST compliance and e-way bill integration is a non-negotiable technical requirement — vendors must demonstrate built-in GSTN API integration in the first conversation, not as a roadmap item
+- Data residency matters: RBI and MEITY guidelines push for India-based data storage for certain categories; ask about data centre location and compliance path early in the evaluation
+- Indian IT leaders are highly technical and expect deep product demonstrations with live API calls and integration walkthroughs — surface-level presentations lose credibility fast
+- Reference accounts in India carry the most weight; global references are useful for brand credibility but Indian 3PL references close deals — name PT Cipta Krida Bahari or VISY as global proof only after establishing Indian context
+- FASTag integration and e-way bill automation are expected features; treat them as qualifying criteria, not differentiators
+
 ---
 ---
 
@@ -266,6 +274,14 @@ They care about their team, their customers, and their KPIs. Their bonuses are o
 - Strong peer network among logistics professionals — referrals and word-of-mouth from respected operators carry significant weight
 - Cost-per-shipment improvement framing works well; CFO involvement in ops decisions is common at this revenue tier
 
+### India
+- Indian 3PL operations are complex and multi-modal — road, rail, air, and coastal freight often used in the same operation; hub-and-spoke networks with significant first/last-mile variability are the norm
+- GST e-way bill generation and management is a daily operational pain point at scale — any platform that automates GSTN e-way bill creation, amendment, and cancellation wins immediate operational buy-in from the COO
+- Labour-intensive operations mean automation of proof-of-delivery (ePOD), driver management, and trip sheets is high-value — frame this as reducing dependency on paper-based field processes
+- FASTag integration for highway toll management is increasingly expected for fleet-heavy operations; ask about this early in discovery
+- Warehouse operations often span tier-2 and tier-3 cities with connectivity constraints — offline capability for mobile workforce matters in this context
+- Key verticals to reference: e-commerce fulfilment (Flipkart, Meesho), automotive (Maruti, Tata, Hero), pharma cold chain and serialisation, and retail distribution (D-Mart, Reliance Retail)
+
 ---
 ---
 
@@ -396,3 +412,11 @@ In owner-operated businesses, the CEO may also be deeply involved in customer re
 - Local presence matters — a Manila-based Ramco team that the CEO can call directly is a meaningful trust signal
 - Resilience and disaster recovery are real concerns given the Philippines' typhoon and earthquake exposure — business continuity features of the platform are a genuine selling point
 - CEOs in the Philippines frequently have direct operational involvement even at senior levels — they may ask detailed operational questions that feel more like a COO conversation
+
+### India
+- Many large Indian 3PLs are family-owned businesses transitioning to professional management — the founder or promoter family may still be the economic decision maker even if a professional CEO is in place; build relationships at both levels
+- Listed companies (BSE/NSE) face analyst scrutiny on operational efficiency and margin improvement — technology investment narratives resonate strongly if linked directly to EBITDA improvement and cost-to-serve reduction
+- India's logistics cost as a percentage of GDP (~13–14%) versus global benchmarks (~8%) is a well-known pressure point among industry CEOs — reference this to establish shared context and urgency without being condescending
+- Peer networks matter: CII, ASSOCHAM, CIAI, and ACTO are influential industry bodies; a warm introduction through these channels carries significantly more weight than cold outreach
+- Government initiatives (PM Gati Shakti, National Logistics Policy) create procurement opportunities and a modernisation mandate that CEOs can use as board-level justification for technology investment — frame Ramco as aligned with national logistics policy
+- Decision timelines in India can run 12–18 months for enterprise software, but can accelerate significantly with a senior internal champion and a board mandate; identify and invest in the champion early

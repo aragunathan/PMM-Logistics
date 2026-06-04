@@ -3,7 +3,7 @@
 
 > **Campaign name:** The 3PL Transformation Report
 > **Campaign type:** ABM + Demand Generation — anchored on a gated research asset
-> **Goal:** 20 qualified opportunities (SQLs) across Australia, Indonesia, Saudi Arabia, and Philippines in 90 days
+> **Goal:** 20 qualified opportunities (SQLs) across Australia, Indonesia, Saudi Arabia, and Philippines in 90 days (India launches H2 2026 — not in Q1 scope)
 > **Pipeline target:** $3.0M+ (20 opps × $150K ACV)
 > **Campaign dates:** 1 April 2026 — 30 June 2026
 > **Campaign owner:** Demand Generation Manager

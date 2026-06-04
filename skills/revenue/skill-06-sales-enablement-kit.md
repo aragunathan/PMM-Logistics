@@ -1,7 +1,7 @@
 # Skill 06 — Sales Enablement Kit
 ## Ramco Logistics Software | Revenue
 
-> **Purpose:** Equip every Ramco sales rep across all four regions with the messaging, materials, tools, and conversation frameworks they need to run a consistent, credible, and effective enterprise sales process — from first outreach through to commercial close.
+> **Purpose:** Equip every Ramco sales rep across all five regions with the messaging, materials, tools, and conversation frameworks they need to run a consistent, credible, and effective enterprise sales process — from first outreach through to commercial close.
 > **Output:** A complete, live sales enablement kit: approved one-pagers per persona, competitive battlecards per named competitor, objection handling guide, discovery question bank, ROI calculator, and all materials accessible inside HubSpot CRM at the point of need.
 > **Owner:** Product Marketing (builds and maintains) + Sales Lead (reviews and approves) + Regional Sales Reps (uses and gives feedback)
 > **Estimated time to complete:** 16–20 hours for full initial build; quarterly review cycle
@@ -620,6 +620,30 @@ The demo guide ensures every Ramco rep runs a consistent, discovery-led, persona
 
 ---
 
+#### India
+
+**One-pager adaptations:**
+- Add GST e-way bill compliance reference in the CIO one-pager: "Native GSTN API integration for e-way bill generation, amendment, and reconciliation — no manual portal workaround, no compliance gap when vehicles are rerouted mid-journey"
+- Add FASTag reconciliation reference in the COO one-pager: "Automated FASTag toll data integration for accurate cost-per-trip reporting across highway corridors"
+- Add PM Gati Shakti / National Logistics Policy reference in the CEO one-pager: "Built for India's digital logistics mandate — supporting 3PLs that are positioning themselves as technology-enabled partners in the National Logistics Policy framework"
+- Add RBI/MEITY data residency statement in the CIO one-pager: "Data hosted on AWS Mumbai or Azure India regions — fully aligned with Indian data residency guidance under RBI and MEITY frameworks"
+- Convert financial figures to INR (Indian Rupee) in the ROI calculator and business case materials; India CEOs making board presentations at listed companies will reference INR figures; USD figures require mental conversion and reduce impact
+- For BSE/NSE-listed company prospects, add an investor narrative note in the CEO one-pager: technology investment in logistics operations is visible in margin improvement and is an analyst-relevant story at quarterly earnings
+
+**Discovery questions to add for India:**
+- "Walk me through how your team currently generates e-way bills — is it done through the GSTN portal directly, a third-party tool, or built into your TMS? How many exceptions does your team handle when a vehicle is rerouted and the e-way bill expires?"
+- "What percentage of your billing disputes are related to FASTag toll reconciliation or e-way bill mismatches? Is that something your finance team tracks?"
+- "With PM Gati Shakti and the National Logistics Policy pushing for digitisation — are you seeing any pressure from your major shipper clients to demonstrate technology capability as part of contract retention?"
+- "India's logistics cost is 13–14% of GDP. What does your own cost per shipment look like, and do you have visibility into which customers and lanes are margin-positive versus margin-negative?"
+
+**Sales process adjustment:** Indian enterprise 3PL deals at ₹800 Cr+ revenue companies involve multiple stakeholders — CIO, COO, and often a CFO and CEO for final approval at listed companies. Map the full buying committee early and ensure the rep has a plan to reach each member with the right message. Do not assume the initial champion (often a VP IT or VP Operations) has the authority to close.
+
+**Reference strategy:** An Indian 3PL reference is the highest-value proof point for India deals. In the absence of an India reference, brief the rep to acknowledge this directly and offer a Southeast Asian reference (Indonesia or Philippines) as the closest operational analogue. Name the specific company and offer a direct introduction to their CIO or COO counterpart — a live reference call is more credible than a PDF case study in Indian enterprise deals.
+
+**Competitive context:** SAP and Oracle are the primary incumbent ERP-extension competitors in India; the rep must be able to demonstrate clearly why a purpose-built logistics platform outperforms an ERP logistics module — especially for multi-client billing, e-way bill at scale, and real-time transport visibility. FarEye and Locus are the local specialist threats — brief the rep on how to position against them if they appear (see competitive battlecard).
+
+---
+
 ### STEP 10: HubSpot Sales Enablement Setup
 **Time:** 2–3 hours | **Owner:** HubSpot Admin / Sales Ops
 
@@ -775,7 +799,7 @@ Build a competitive battlecard for Ramco sales reps to use when [COMPETITOR NAME
 
 Ramco context:
 - Product: Integrated logistics platform (TMS, WMS, Fleet Management, Hub Management, Rating & Billing)
-- ICP: 3PL companies with $100M+ annual revenue in Australia, Indonesia, Saudi Arabia, Philippines
+- ICP: 3PL companies with $100M+ annual revenue in Australia, Indonesia, Saudi Arabia, Philippines, India
 - Key differentiators: [LIST RAMCO'S TOP 3 DIFFERENTIATED CLAIMS vs. this competitor]
 
 Competitor: [COMPETITOR NAME]
@@ -797,7 +821,7 @@ Generate a complete battlecard with the following sections:
    Rule: Never say "That's wrong" — say "Here's a more useful way to think about that."
 
 5. HEAD-TO-HEAD COMPARISON TABLE
-   Compare on: TMS capability, WMS capability, Fleet Management, Rating & Billing, API/Integration, Implementation approach, Regional support (AU/ID/SA/PH), Cloud architecture, Pricing model
+   Compare on: TMS capability, WMS capability, Fleet Management, Rating & Billing, API/Integration, Implementation approach, Regional support (AU/ID/SA/PH/IN), Cloud architecture, Pricing model
    Use: Strong / Adequate / Weak / Unknown — be honest about Ramco's gaps
 
 6. LANDMINES (5 discovery questions the rep can ask the prospect — without naming the competitor — that reveal this competitor's weaknesses)
@@ -828,7 +852,7 @@ You are a B2B enterprise sales coach specialising in logistics software with a 1
 
 Build a complete objection handling response for the following objection. This will be added to Ramco's sales enablement playbook and used verbatim by sales reps.
 
-Company context: Ramco Systems — selling a $150k+ ACV logistics platform (TMS, WMS, Fleet, Billing) to 3PL companies in Australia, Indonesia, Saudi Arabia, Philippines.
+Company context: Ramco Systems — selling a $150k+ ACV logistics platform (TMS, WMS, Fleet, Billing) to 3PL companies in Australia, Indonesia, Saudi Arabia, Philippines, India.
 
 Objection: "[PASTE THE EXACT OBJECTION AS THE PROSPECT SAYS IT]"
 Persona who says it: [CIO / COO / CEO]
@@ -859,11 +883,12 @@ Generate the following:
    One sentence — what the rep says if the prospect repeats or escalates the objection
 
 6. REGIONAL ADAPTATION
-   Note any specific adjustments for each of the four regions:
+   Note any specific adjustments for each of the five regions:
    - Australia:
    - Indonesia:
    - Saudi Arabia:
    - Philippines:
+   - India:
    (If no meaningful adaptation needed for a region, write "No adaptation — global response applies.")
 
 7. WHEN TO ESCALATE

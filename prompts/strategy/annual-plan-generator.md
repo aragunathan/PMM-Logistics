@@ -38,7 +38,7 @@ complete annual marketing plan for [YEAR] covering all 10 sections:
 10. Brand visibility plan
 11. Budget allocation and headcount
 
-Make every section specific to Ramco, our 3 personas, and our 4 regions.
+Make every section specific to Ramco, our 3 personas, and our 5 regions (Australia, Indonesia, Saudi Arabia, Philippines, India).
 No generic marketing advice. Every recommendation must reference a specific
 skill file, prompt file, or agent file from this system.
 

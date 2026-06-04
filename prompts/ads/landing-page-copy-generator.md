@@ -9,7 +9,7 @@
 Write conversion-optimised landing page copy for Ramco Logistics Software.
 
 Module: [REPLACE: TMS / WMS]
-Region: [REPLACE: Australia / Indonesia / Saudi Arabia / Philippines]
+Region: [REPLACE: Australia / Indonesia / Saudi Arabia / Philippines / India]
 Persona arriving from ad: [REPLACE: CIO / COO / CEO]
 Ad headline that sent them here: [REPLACE WITH EXACT AD HEADLINE]
 

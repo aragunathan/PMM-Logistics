@@ -629,6 +629,29 @@ The email sequences above are the global templates. Apply the following adaptati
 
 ---
 
+#### India
+
+**Sending name and signature:** Use a named India-based Ramco team member where available. Include a direct mobile (+91 9X XXXX XXXX) and city location (Mumbai, Bangalore, or Delhi NCR) in the signature — this signals local presence and is a credibility marker for Indian enterprise buyers who verify vendor depth before engaging. No translation required — all India enterprise B2B outreach is in English.
+
+**Body copy adjustments:**
+
+- In Track 1 (CIO) Email 1, open with a GST/e-way bill integration reference: "Most 3PL IT teams managing GST e-way bill compliance are running a combination of the GSTN portal, Excel exports, and manual reconciliation that breaks down every time a vehicle is rerouted mid-journey or an e-way bill expires in transit. The reconciliation cost alone — in team hours and billing disputes — adds up quickly." This is the single highest-resonance pain point for Indian 3PL IT leaders and should anchor the first touch.
+- In Track 1 (CIO) Email 1, add a data residency note: "Data residency in India is an increasing requirement — our platform supports deployment on AWS Mumbai and Azure India regions, covering both RBI and MEITY guidance on data localisation."
+- In Track 2 (Ops) Email 2, replace generic visibility copy with: "For a 3PL managing freight across Mumbai–Pune–Nashik corridors, Delhi–Agra–Lucknow lanes, or Bangalore–Chennai–Hyderabad triangles, real-time dispatch visibility means catching a FASTag toll mismatch or e-way bill expiry before it becomes a detention charge or a GST notice."
+- In Track 2 (Ops) Email 3, use India-specific growth framing: "Indian 3PLs supporting Meesho, Flipkart, and Blinkit are absorbing 3–5x volume surges during festive season (Navratri, Diwali, Dhanteras). The ones doing it without proportional headcount growth have automated exception handling and billing reconciliation running underneath."
+- In Track 3 (CEO) Email 1, reference India's structural logistics cost gap: "India's logistics cost runs at 13–14% of GDP against a global benchmark of 8%. The 3PLs narrowing that gap for their own P&L are the ones replacing fragmented systems — transport here, warehouse there, billing on spreadsheets — with a single platform that ties operational data to financial outcomes."
+- In Track 3 (CEO) Email 2, reference PM Gati Shakti and National Logistics Policy: "The PM Gati Shakti framework and National Logistics Policy create a genuine tailwind for 3PLs that can demonstrate technology-enabled efficiency. For BSE/NSE-listed logistics companies, this is also an analyst narrative — operational technology investment shows up in margin improvement stories."
+
+**Tone adjustment for all tracks:** Indian enterprise buyers — especially CIOs — are technically rigorous and will test vendor depth early. Avoid generic benefit statements; lead with specific technical or operational details that demonstrate genuine understanding of the Indian logistics operating environment. Avoid urgency framing; Indian enterprise decisions are deliberate and relationship-driven.
+
+**Send time optimisation (IST — Indian Standard Time):**
+
+- Best days: Tuesday, Wednesday, Thursday
+- Best times: 9:00–11:00am IST or 2:00–4:00pm IST
+- Avoid: Monday mornings (meetings and catch-up), Friday afternoons, Indian public holidays (Diwali, Dussehra, Republic Day, Independence Day, Holi — check the national and state-level calendar for the city where the contact is based), and exam/results season in April–May when logistics companies often have internal planning cycles
+
+---
+
 ### STEP 5: Build Sequences in HubSpot
 
 **Time:** 2–3 hours | **Owner:** Marketing Ops / HubSpot Admin
@@ -668,7 +691,7 @@ NUR | T3 | CEO | SA | E1 — Digital capability gap
 
 Navigate to: **HubSpot → Automation → Workflows → Create Workflow → Contact-based**
 
-Create one workflow per track per region (12 total: 3 tracks × 4 regions).
+Create one workflow per track per region (15 total: 3 tracks × 5 regions).
 
 Naming convention:
 
@@ -1003,7 +1026,7 @@ Final output: Priority order of fixes — which change will have the biggest imp
 | Hemingway App (hemingwayapp.com)        | Readability check — target Grade 8 or below for all email body copy          | Optional                      |
 | Grammarly                               | Copy proofing before HubSpot build                                           | Optional                      |
 | Litmus or Email on Acid                 | Cross-client email rendering test (Gmail, Outlook, Apple Mail, mobile)       | Recommended                   |
-| DeepL / Google Translate                | Indonesian (Bahasa) and Arabic translation review for regional variants      | Required for ID and SA tracks |
+| DeepL / Google Translate                | Indonesian (Bahasa) and Arabic translation review for regional variants      | Required for ID and SA tracks (India uses English only — no translation required) |
 | Loom                                    | Record SDR training walkthrough of the nurture sequence and its intent logic | Optional                      |
 
 

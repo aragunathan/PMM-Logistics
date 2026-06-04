@@ -52,7 +52,7 @@ Week 1 and 2 — Research and Positioning
 
 Week 3 and 4 — Asset Creation
 - Rewrite TMS website hero page copy (H1, subhead, bullets, CTA)
-- Rewrite TMS ad copy for all 3 regions (run skill-10 with new positioning)
+- Rewrite TMS ad copy for all 5 regions (run skill-10 with new positioning)
 - Update TMS sales deck — first 5 slides (problem, solution, differentiation)
 - Refresh outbound LinkedIn sequences for CIO and COO with new angle
 - Deliverable: all written assets approved by sales lead
@@ -104,7 +104,7 @@ Generate a complete launch plan for:
 Launch type: [REPLACE: Major / Feature / Repositioning]
 Module: [REPLACE: TMS / WMS / Fleet / Hub Management / Rating and Billing]
 What is changing or being repositioned: [REPLACE]
-Target regions: [REPLACE: AU / ID / SA / PH]
+Target regions: [REPLACE: AU / ID / SA / PH / IN]
 Launch date: [REPLACE]
 Primary persona for this launch: [REPLACE: CIO / COO / CEO]
 

@@ -81,7 +81,7 @@ How many contacts/impressions do you need before starting? Use this table to est
 | 30% (LinkedIn connection accept) | 20% relative (i.e., 30% → 36%) | 400 per variant |
 | 1.5% (landing page conversion) | 30% relative (i.e., 1.5% → 1.95%) | 2,500 per variant |
 
-**Practical implication for Ramco:** With a relatively small ICP (3PL companies, $100M+ revenue, 4 regions), sample sizes for conversion rate experiments are the limiting constraint. Prioritise experiments where you can reach 100+ per variant quickly — email subject lines on a warm list and LinkedIn ad CTR at scale.
+**Practical implication for Ramco:** With a relatively small ICP (3PL companies, $100M+ revenue, 5 regions), sample sizes for conversion rate experiments are the limiting constraint. Prioritise experiments where you can reach 100+ per variant quickly — email subject lines on a warm list and LinkedIn ad CTR at scale.
 
 ---
 
@@ -283,11 +283,11 @@ How many contacts/impressions do you need before starting? Use this table to est
 > If the LinkedIn ad headline quantifies a specific recoverable cost ("$2–5M in recoverable EBITDA") rather than framing the message competitively ("Win the contracts your competitors are winning"), the CTR will be higher for the CEO persona, because CEOs respond to tangible financial framing over vague competitive urgency.
 
 **Variable being tested:** Ad headline only (intro text, image, and CTA button are identical across both variants)
-**Everything else is identical:** Audience targeting (CEO/MD/President, 3PL companies, all 4 regions), bid strategy, daily budget
+**Everything else is identical:** Audience targeting (CEO/MD/President, 3PL companies, all 5 regions), bid strategy, daily budget
 
 **Variant A — Control (Competitive framing):**
 - Headline: `Win the Enterprise Contracts Your Competitors Are Already Winning`
-- Intro text (identical to Variant B): `3PL operators across Australia, Indonesia, Saudi Arabia, and the Philippines are using technology to win RFPs that their competitors can't compete on. Ramco's 3PL Digital Maturity Benchmark shows you where the gap is.`
+- Intro text (identical to Variant B): `3PL operators across Australia, Indonesia, Saudi Arabia, the Philippines, and India are using technology to win RFPs that their competitors can't compete on. Ramco's 3PL Digital Maturity Benchmark shows you where the gap is.`
 - Image: Report cover visual
 - CTA button: `Download the Report`
 
@@ -305,7 +305,7 @@ How many contacts/impressions do you need before starting? Use this table to est
 
 **Success metric (primary):** CTR (Variant B CTR > Variant A CTR by ≥ 15% relative lift — e.g., 0.55% → 0.63%)
 **Success metric (secondary):** Report downloads (form submissions attributed to this ad) — higher CTR does not always mean better-quality clicks; track downloads as a sanity check
-**Sample size required:** 10,000 impressions per variant (see sample size table — 0.5% baseline CTR, 50% relative lift detection). With a $35K LinkedIn budget for CEO layer across 4 regions, this should be reached within 2–3 weeks.
+**Sample size required:** 10,000 impressions per variant (see sample size table — 0.5% baseline CTR, 50% relative lift detection). With a $35K LinkedIn budget for CEO layer across 5 regions, this should be reached within 2–3 weeks.
 
 **Interim data (update weekly):**
 
@@ -314,12 +314,12 @@ How many contacts/impressions do you need before starting? Use this table to est
 | Week 1 | | | | | | Interim — do not call |
 | Week 2 | | | | | | Call if p ≤ 0.05 and 10K+ impressions each |
 
-**Regional note:** Run this test across all 4 regions simultaneously. If the winner varies by region (e.g., quantified cost wins in AU but competitive framing wins in SA), record this as a regional insight. The skill file update should specify which headline works in which region.
+**Regional note:** Run this test across all 5 regions simultaneously. If the winner varies by region (e.g., quantified cost wins in AU but competitive framing wins in SA), record this as a regional insight. The skill file update should specify which headline works in which region. For India, note that the quantified cost framing may resonate particularly strongly given the 13–14% GDP logistics cost narrative.
 
 **Result:** *(Fill in on close)*
 **Winner:** *(Variant A / Variant B / No significant difference / Regional split)*
 **Action:** *(Update CEO Sponsored Content headline in active campaigns; note any regional variation)*
-**Skill file to update:** `/prompts/ads/linkedin-ad-copy-generator.md` — CEO Sponsored Content, all 4 regions, Variant 1 headline
+**Skill file to update:** `/prompts/ads/linkedin-ad-copy-generator.md` — CEO Sponsored Content, all 5 regions, Variant 1 headline
 **Prompt to update:** Add winning headline angle as recommended approach in the New Ad Variant Generator prompt
 
 ---

@@ -14,7 +14,7 @@ Read inputs/persona-definitions.md before writing any copy.
 
 Generate a complete Google Ads RSA ad set for:
 Module: [REPLACE: TMS / WMS / Fleet Management]
-Region: [REPLACE: Australia / Indonesia / Saudi Arabia / Philippines]
+Region: [REPLACE: Australia / Indonesia / Saudi Arabia / Philippines / India]
 Persona most likely to see this ad: [REPLACE: CIO / COO / CEO]
 Primary keyword: [REPLACE WITH your Tier 1 keyword from Skill 09]
 

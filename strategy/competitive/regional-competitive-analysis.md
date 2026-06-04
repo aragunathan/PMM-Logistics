@@ -1,6 +1,6 @@
 # Regional Competitive Analysis — Ramco Logistics Software
 **Created:** 2026-03-28 | **Owner:** Marketing Lead
-**Scope:** Australia, Indonesia, Saudi Arabia, Philippines
+**Scope:** Australia, Indonesia, Saudi Arabia, Philippines, India
 **Source:** Skill 12 (Competitive Intel), Persona Definitions, GTM Strategy, Competitive Intel Agent
 
 ---
@@ -86,6 +86,25 @@ This is a living strategy document — not a battlecard. Use it to:
 
 ---
 
+### India — Compliance and Scale Market
+
+| Competitor | Tier | Why They Win in IN | Threat Level |
+|-----------|------|--------------------|-------------|
+| SAP TM / S/4HANA | T1 | Large Indian conglomerates (Aditya Birla, Mahindra, Tata group affiliates) run SAP at the ERP level; IT teams are SAP-certified and default to extending TMS capability within the existing ecosystem | **HIGH** |
+| Oracle OTM | T1 | Enterprise credibility in large Indian 3PLs with Oracle ERP environments; Oracle has established SI partnerships (TCS, Wipro, Infosys) that recommend Oracle TMS as a natural extension | **HIGH** |
+| Infor CloudSuite | T1 | Growing presence with manufacturing-adjacent 3PLs; Infor has India-based implementation partners | **MEDIUM** |
+| FarEye | T2 | Indian-origin company; strong last-mile and delivery tracking; well-known brand among e-commerce-serving 3PLs; wins on last-mile narrative | **MEDIUM** (last-mile overlap only) |
+| Locus | T2 | AI-led route optimisation pitch; well-funded startup with strong marketing; wins dispatch and delivery optimisation conversations at e-commerce 3PLs | **MEDIUM** (route optimisation overlap) |
+| Custom-built / Excel | T3 | No licensing cost; built by internal IT teams; deeply entrenched in family-owned 3PLs; switching cost feels high emotionally and technically | **HIGH** (most common barrier) |
+
+**What the competitive map tells us about India:**
+- SAP and Oracle win through ERP incumbency, not product superiority. When an Indian 3PL's IT team says "we run SAP," they mean SAP is the centre of gravity in their architecture. Ramco must position as the logistics operations layer above the ERP — not a replacement of it. "We integrate with your SAP environment" must be the first statement, not the last.
+- FarEye and Locus are point-solution threats. They win specific use cases (last-mile dispatch, route optimisation) but have no TMS/WMS/billing depth. When Ramco encounters these vendors, the counter is full operational coverage — FarEye cannot manage a multi-client warehouse or generate an e-way bill automatically.
+- Custom-built systems are the dominant competitive barrier in family-owned 3PLs. The IT team that built the system sees it as professional heritage. Approach these accounts by surfacing the hidden cost: inability to meet GST compliance automation requirements, inability to integrate with enterprise shipper APIs, inability to scale without proportional IT headcount.
+- GST and e-way bill compliance is both a qualifying question and a competitive differentiator. Any vendor that cannot demonstrate GSTN API integration built into its core product is disqualified from serious consideration by Indian COOs and CIOs. Ramco must demonstrate this capability proactively and specifically — not as a roadmap item.
+
+---
+
 ## Section 2: Key Competitive Learnings by Region
 
 ### Australia — Key Learnings
@@ -164,13 +183,32 @@ The Philippines is exposed to typhoons, earthquakes, and flooding. Philippine CE
 
 ---
 
+### India — Key Learnings
+
+**L1: The ERP extension dynamic is the same as Indonesia and Saudi Arabia — but amplified.**
+Indian 3PLs at the ₹800 Cr+ level almost universally run SAP or Oracle at the ERP level. The IT team's default recommendation is to extend TMS capability within the existing ERP. Ramco's counter is the same as in other markets — "we integrate with your SAP and give you logistics-native functionality that SAP TM cannot match at 3PL operational depth" — but in India this must be said immediately, not built up to.
+
+**L2: GST and e-way bill compliance is the single most powerful qualifying and differentiating hook in India.**
+Every Indian 3PL operating at scale generates hundreds or thousands of e-way bills daily. Manual e-way bill management is a genuine operational pain — errors, missed deadlines, reconciliation burden. A platform that automates GSTN e-way bill generation, amendment, and cancellation wins COO buy-in faster than any other capability. This is not a feature — it is a qualifying requirement. Lead with it in outbound, in content, and in demos.
+
+**L3: Indian IT leaders are the most technically demanding of all five regions.**
+Unlike the Philippines or Indonesia where relationship-building precedes technical review, Indian CIOs and VP ITs will push for deep technical validation early in the process. They expect live API demonstrations, architecture documentation, and honest conversations about implementation timelines. Vendors who show up with slide-based demos lose credibility immediately. Invest in technical content (API docs, integration guides, reference architecture diagrams) before approaching Indian IT decision-makers.
+
+**L4: FarEye and Locus are well-known in Indian logistics circles — positioning against them must be specific.**
+Both companies are Indian-origin, well-funded, and have strong brand recognition among Indian 3PLs serving e-commerce. When Ramco encounters these vendors, the positioning is clear: FarEye and Locus are last-mile tools, not enterprise operations platforms. They have no multi-client WMS, no integrated billing, no fleet management depth. The question to ask the prospect is: "What happens after the package is dispatched? How do you manage warehouse throughput, billing reconciliation, and fleet utilisation?" These are questions FarEye and Locus cannot answer at the operational depth Ramco can.
+
+**L5: Securing an Indian reference account is the single highest-leverage marketing action for this market.**
+In Australia, VISY Logistics is the competitive moat. In Indonesia, PT Cipta Krida Bahari serves the same role. India needs its own reference — a named, referenceable Indian 3PL that an Indian CEO can call and hear about the implementation experience in their own context. Without an Indian reference, Ramco will lose deals to local vendors and global incumbents who can claim "we have customers here" while Ramco can only offer global proof points. Securing and formalising an Indian reference account is the marketing team's first India priority.
+
+---
+
 ## Section 3: Cross-Regional Patterns — What the Competitive Landscape Tells Us Globally
 
 **Pattern 1: The ERP Extension Problem**
-In Australia, Indonesia, and Saudi Arabia, Oracle and SAP win not because they are better logistics platforms — they win because they are already inside the organisation. The IT team has certified staff, existing integrations, and political capital invested in the ERP. Ramco's universal counter is: "We integrate with your ERP and extend it with 3PL-native functionality that SAP TM and Oracle TMS cannot match at the operational depth you need." This message must be in every CIO-targeted asset across all three regions.
+In Australia, Indonesia, Saudi Arabia, and India, Oracle and SAP win not because they are better logistics platforms — they win because they are already inside the organisation. The IT team has certified staff, existing integrations, and political capital invested in the ERP. Ramco's universal counter is: "We integrate with your ERP and extend it with 3PL-native functionality that SAP TM and Oracle TMS cannot match at the operational depth you need." This message must be in every CIO-targeted asset across all three regions.
 
 **Pattern 2: Local Reference Accounts Are the Most Powerful Competitive Asset in Every Region**
-In all four regions, the most credible competitive counter to any competitor is a live, referenceable customer in that region. AU: VISY Logistics. ID: PT Cipta Krida Bahari. SA: Kanoo Terminal Services. PH: Not yet formalised — securing and publishing a Philippine reference account is the single highest-leverage marketing action for that market. Every other competitive tactic is secondary to this.
+In all five regions, the most credible competitive counter to any competitor is a live, referenceable customer in that region. AU: VISY Logistics. ID: PT Cipta Krida Bahari. SA: Kanoo Terminal Services. PH: Not yet formalised. IN: Not yet formalised — securing and publishing reference accounts in both Philippines and India is the highest-leverage marketing action for those markets. Every other competitive tactic is secondary to this.
 
 **Pattern 3: Price Objections Are Actually Value Communication Failures**
 Price is the #1 loss reason in the pipeline (per GTM strategy). The competitive analysis confirms this is not a pricing problem — it is a sequencing problem. When a prospect reaches a commercial conversation without having seen the cost of their current problem quantified (billing leakage, SLA penalties, headcount inefficiency), they default to price comparison. The fix is front-loading ROI and cost-of-inaction content in every nurture sequence, before pricing ever comes up. This is consistent across all four regions.
@@ -215,6 +253,8 @@ Across all four regions, the deal complexity requires an internal champion (typi
 
 **Philippines:** Open with cost-of-inaction (what the in-house system is costing them today). Lead with Metro Manila last-mile pain for COO. Build ROI in peso terms. Activate peer referral as the primary conversion mechanism.
 
+**India:** Open with GST/e-way bill automation ("we have GSTN API integration built in") — this is a qualifying statement, not a feature. Lead with ERP integration story for CIO ("we work alongside your SAP"). Reference National Logistics Policy and PM Gati Shakti alignment for CEO. Never skip technical depth for IT persona — they will demand it regardless. Build ROI in INR with Indian labour cost and operational complexity assumptions.
+
 ---
 
 ## Section 5: Battlecard Build Priority
@@ -224,10 +264,11 @@ Based on competitive threat and deal frequency, build battlecards in this order:
 | Priority | Competitor | Reason |
 |----------|-----------|--------|
 | 1 | WiseTech / CargoWise | Highest threat in AU (primary market); no battlecard exists |
-| 2 | SAP Transportation Management | T1 competitor in AU and SA; most common "we already use SAP" objection |
+| 2 | SAP Transportation Management | T1 competitor in AU, SA, and IN; most common "we already use SAP" objection |
 | 3 | Blue Yonder | T1 threat in AU and ID; appears in enterprise RFPs |
-| 4 | Infor CloudSuite | Recurring competitor in ID and SA deals |
-| 5 | FarEye | Growing last-mile threat in ID and PH; easy to counter but must be documented |
+| 4 | Infor CloudSuite | Recurring competitor in ID, SA, and IN deals |
+| 5 | FarEye | Growing last-mile threat in ID, PH, and IN; easy to counter but must be documented |
+| 6 | Locus | Growing route optimisation threat in IN; frequently appears in e-commerce 3PL deals |
 | Done | Oracle TMS | Battlecard built 2026-03-24 |
 
 ---

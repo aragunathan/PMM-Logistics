@@ -1,7 +1,7 @@
 # Campaign 04 — One Platform or Five Problems
 **Platform:** LinkedIn Paid
 **Primary Persona:** CIO / VP IT / Director IT
-**Regions:** Australia | Indonesia | Saudi Arabia
+**Regions:** Australia | Indonesia | Saudi Arabia | Philippines | India
 **Layer:** L1 ABM + L2 Persona (always-on)
 **Formats:** Sponsored Content + LGF (IT Evaluation Checklist) + Message Ad
 **Campaign ID prefix:** C04

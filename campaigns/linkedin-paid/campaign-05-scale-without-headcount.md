@@ -1,7 +1,7 @@
 # Campaign 05 — Scale Without Headcount
 **Platform:** LinkedIn Paid
 **Primary Persona:** CEO / MD / Owner + COO / VP Operations (dual-persona)
-**Regions:** Australia | Indonesia | Saudi Arabia
+**Regions:** Australia | Indonesia | Saudi Arabia | Philippines | India
 **Layer:** L2 Persona (primary) + L1 ABM + L3 Retargeting (from C01–C03 pool)
 **Formats:** Sponsored Content (two persona variants) + LGF + Message Ad
 **Campaign ID prefix:** C05

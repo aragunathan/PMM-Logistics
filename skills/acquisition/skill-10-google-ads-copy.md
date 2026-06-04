@@ -13,7 +13,7 @@ Never reuse the same ad copy across different regions or modules.
 - Completed keyword list and ad group structure from Skill 09
 - Persona messaging matrix from inputs/persona-definitions.md
 - Modules in scope: TMS, WMS
-- Regions in scope: Australia, Indonesia, Saudi Arabia
+- Regions in scope: Australia, Indonesia, Saudi Arabia, Philippines, India
 - Conversion goal: Book a Demo
 - Landing page URLs: ramco.com/products/logistics-software/transportation-management-tms/
                     ramco.com/products/logistics-software/warehouse-management-wms/

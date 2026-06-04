@@ -6,7 +6,7 @@
 
 ## Executive Summary
 
-Ramco's logistics software division is targeting $8M USD ARR in 2026 across four regions — Australia, Indonesia, Saudi Arabia, and the Philippines — selling an integrated TMS, WMS, Fleet Management, Hub Management, and Rating & Billing platform to 3PL companies with $100M+ annual revenue.
+Ramco's logistics software division is targeting $8M USD ARR in 2026 across five regions — Australia, Indonesia, Saudi Arabia, the Philippines, and India — selling an integrated TMS, WMS, Fleet Management, Hub Management, and Rating & Billing platform to 3PL companies with $100M+ annual revenue.
 
 The GTM motion is account-based marketing (ABM) combined with multi-stakeholder consensus selling. Average ACV is $150k+ (floor); the sales cycle runs 180+ days. With 21 active deals in pipeline and a 20% win rate, the programme is early-stage and channel-lean — operating on a $100K annual marketing budget.
 
@@ -41,7 +41,7 @@ The GTM motion is account-based marketing (ABM) combined with multi-stakeholder 
 ### Market Context
 The Asia-Pacific 3PL market is growing driven by e-commerce expansion, supply chain modernisation, and increasing enterprise shipper expectations for digital capability. 3PLs with $100M+ annual revenue are under pressure from two sides: their enterprise customers demand real-time visibility and digital interfaces, and their competitors are investing in technology to differentiate on capability rather than price alone.
 
-The four target regions represent distinct opportunity profiles:
+The five target regions represent distinct opportunity profiles:
 
 | Region | Market Status | Maturity | Key Driver |
 |--------|--------------|----------|------------|
@@ -49,6 +49,7 @@ The four target regions represent distinct opportunity profiles:
 | Indonesia | Active | Growing | Inter-island logistics complexity, e-commerce boom |
 | Saudi Arabia | Early Stage | Emerging | Vision 2030 logistics modernisation mandate |
 | Philippines | Active | Growing | Metro Manila last-mile, FMCG/pharma logistics |
+| India | Active | Growing | GST/e-way bill compliance, 3PL formalisation, e-commerce expansion |
 
 ### Ideal Customer Profile (ICP)
 - **Company type:** Third-party logistics (3PL) provider
@@ -59,10 +60,10 @@ The four target regions represent distinct opportunity profiles:
 - **Deal size:** $150K ACV minimum; target $300K+ for enterprise accounts
 
 ### Total Addressable Market (TAM)
-Estimated 400–600 3PL companies with $100M+ annual revenue across Australia, Indonesia, Saudi Arabia, and the Philippines. Not all are currently in a buying cycle; the ABM programme targets the subset in active evaluation or approaching a renewal decision.
+Estimated 550–800 3PL companies with $100M+ annual revenue across Australia, Indonesia, Saudi Arabia, the Philippines, and India. India alone adds an estimated 150–200 qualifying 3PL companies (₹800 Cr+ revenue) given the scale and growth rate of the Indian logistics market. Not all are currently in a buying cycle; the ABM programme targets the subset in active evaluation or approaching a renewal decision.
 
 ### Serviceable Addressable Market (SAM)
-Tier 1 and Tier 2 accounts on the target account list — companies where Ramco's platform fits the operational profile, where a named contact has been identified, and where the region has active sales coverage. Current SAM estimate: 150–200 accounts across four regions.
+Tier 1 and Tier 2 accounts on the target account list — companies where Ramco's platform fits the operational profile, where a named contact has been identified, and where the region has active sales coverage. Current SAM estimate: 200–260 accounts across five regions.
 
 ---
 
@@ -155,6 +156,15 @@ Tier 1 and Tier 2 accounts on the target account list — companies where Ramco'
 | Oracle / SAP | Incumbent relationships with large Saudi enterprises | Cost and implementation complexity; Ramco offers a faster time-to-value for 3PL-specific workflows |
 | Infor / Blue Yonder | Global credibility | Ramco has GCC reference (Kanoo Terminal Services); ZATCA billing compliance built in |
 
+### India
+| Competitor | Why They Win | Ramco Counter |
+|------------|-------------|---------------|
+| SAP / Oracle | Brand recognition, incumbent ERP relationships at large enterprises | Heavy customisation cost, poor 3PL-specific functionality; Ramco is purpose-built |
+| Leeway Hertz / Infor | Price competitiveness, local Indian vendors | Lack of integrated suite depth; Ramco covers TMS + WMS + Fleet + Billing in one platform |
+| FarEye | Strong last-mile and delivery focus, Indian-origin company | Point solution only; Ramco covers full end-to-end logistics operations |
+| Locus | Route optimisation, AI-led pitch, well-funded startup | Last-mile optimiser, not an enterprise operations platform |
+| Custom-built / Excel | No licensing cost, full control | No scalability, high maintenance cost, no GST/e-way bill compliance automation |
+
 ### Primary Competitive Advantages
 1. **3PL-native platform** — TMS, WMS, Fleet, Hub, and Billing built as one system, not bolted together. No competitor covers all five in a single platform at Ramco's price point.
 2. **Implementation speed** — Phased rollout methodology designed for 3PL operations. Faster time-to-value than Oracle, SAP, or Blue Yonder.
@@ -237,6 +247,7 @@ Tier 1 and Tier 2 accounts on the target account list — companies where Ramco'
 2. **Average deal size will run higher than $150K floor** — assumed $250–300K average for funnel math to be viable.
 3. **Philippines is active but not prioritised for H1 2026** — marketing investment follows Australia first, Philippines in H2 if AU playbook is working.
 4. **Saudi Arabia is exploratory** — marketing support is light-touch (Kanoo account-specific content, no broad paid campaigns) until sales validates the market further.
+5. **India is active and growing** — marketing investment to begin in H2 2026 with ABM outbound and Google Ads targeting high-intent enterprise 3PL buyers; GST/e-way bill compliance is the primary content hook; India reference account to be identified and formalised.
 
 ---
 

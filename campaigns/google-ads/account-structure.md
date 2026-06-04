@@ -13,9 +13,9 @@
 | Setting | Value |
 |---------|-------|
 | Account name | Ramco Logistics — Search |
-| Campaigns | 6 |
-| Ad groups | 12 |
-| Target regions | Australia, Indonesia, Philippines, Saudi Arabia |
+| Campaigns | 7 |
+| Ad groups | 14 |
+| Target regions | Australia, Indonesia, Philippines, Saudi Arabia, India |
 | Primary goal | Demo request conversions |
 | Bid strategy | Maximize Conversions (switch to Target CPA once 30+ conversions/month) |
 
@@ -289,14 +289,14 @@
 | Field | Value |
 |-------|-------|
 | Campaign name | `[ALL] Brand + Competitor Defense` |
-| Region | All (AU, ID, PH, SA) |
+| Region | All (AU, ID, PH, SA, IN) |
 | Module | All |
 | Goal | Protect brand search share; intercept competitor-evaluating prospects |
 | Bid strategy | Target Impression Share — 90%+ for Brand ad group |
 | Daily budget guidance | USD $30–50/day combined |
 | Networks | Search only |
 | Languages | English |
-| Location targeting | Australia, Indonesia, Philippines, Saudi Arabia |
+| Location targeting | Australia, Indonesia, Philippines, Saudi Arabia, India |
 | Ad schedule | All days, all hours |
 
 ### Ad Group 11: BRAND | Ramco Brand Terms
@@ -334,6 +334,71 @@
 
 ---
 
+## Campaign 7: [IN] Transport Management System
+
+| Field | Value |
+|-------|-------|
+| Campaign name | `[IN] TMS — Transport Management System` |
+| Region | India |
+| Module | TMS |
+| Goal | Demo requests from India-based 3PLs evaluating logistics software |
+| Bid strategy | Maximize Conversions |
+| Daily budget guidance | INR 4,000–7,000/day (~USD $50–85) |
+| Networks | Search only |
+| Languages | English (English only — no Hindi; India enterprise B2B searches in English) |
+| Location targeting | India — Mumbai, Delhi NCR, Bangalore, Chennai, Pune |
+| Ad schedule | Mon–Fri 9am–7pm IST |
+
+### Ad Group 13: IN-TMS | High Intent — TMS Software Buyers
+
+| Field | Value |
+|-------|-------|
+| Ad group name | `IN-TMS | High Intent — TMS Software Buyers` |
+| Keyword intent tier | Tier 1 — High Intent |
+| Match types | Exact + Phrase |
+| Landing page URL | `https://www.ramco.com/products/logistics-software/transport-management/` |
+
+**Keywords:**
+- [transport management system software India]
+- [TMS software for 3PL India]
+- [logistics TMS vendors India]
+- [GST e-way bill logistics software]
+- [GSTN API transport management]
+- [e-way bill management software 3PL]
+- "TMS software India"
+- "transport management software India"
+- "3PL software India enterprise"
+- "logistics software Mumbai"
+- "logistics software Bangalore"
+
+### Ad Group 14: IN-TMS | Solution Aware — Logistics Platform India
+
+| Field | Value |
+|-------|-------|
+| Ad group name | `IN-TMS | Solution Aware — Logistics Platform India` |
+| Keyword intent tier | Tier 2 — Solution Aware |
+| Match types | Phrase + Broad |
+| Landing page URL | `https://www.ramco.com/products/logistics-software/` |
+
+**Keywords:**
+- "logistics software India"
+- "transport operations software India"
+- "logistics management platform India"
+- "freight software solutions India"
+- "supply chain software 3PL India"
+- "logistics ERP India"
+- "FASTag logistics software"
+- "GST compliant logistics platform"
+- "National Logistics Policy software"
+
+**India-specific notes:**
+- GSTN API and e-way bill keywords are Tier 1 — these are the highest-intent signals in the Indian market. Any prospect searching these terms is in active evaluation.
+- Do not add Hindi/Devanagari keyword variants — enterprise 3PL searches in India are conducted in English.
+- FASTag and GST compliance keywords bridge the compliance pain to the platform evaluation trigger.
+- Competitor conquesting for India: add FarEye, Locus, and "custom logistics software India" to the COMP ad group in Campaign 6.
+
+---
+
 ## Pre-Launch Setup Checklist
 
 Complete every item before activating any campaign.
@@ -362,7 +427,7 @@ Complete every item before activating any campaign.
 
 ### Negative Keywords (Account-Level — apply before launch)
 - [ ] Add all negatives from Skill 09 to a shared negative keyword list
-- [ ] Apply shared negative list to all 6 campaigns
+- [ ] Apply shared negative list to all 7 campaigns
 - [ ] Negatives to add: free, open source, freeware, jobs, careers, salary, hiring, training, tutorial, course, certification, download, crack, torrent, small business, SMB, startup, DIY, spreadsheet, Excel, student, university, academic
 
 ### Extensions (add to all campaigns)

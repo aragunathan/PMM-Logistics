@@ -89,7 +89,7 @@ Competitive Questions:
 ---
 ### 1B — Market Context Framework
 
-For each region (AU, ID, SA, PH) assess:
+For each region (AU, ID, SA, PH, IN) assess:
 
 Market Growth:
 - Is the 3PL market in this region growing, flat, or contracting?
@@ -126,6 +126,7 @@ Opportunities to build into the plan:
 - E-commerce boom driving 3PL growth in Indonesia and Philippines
 - Australian logistics modernization post-pandemic
 - AI in logistics as a content and thought leadership angle
+- India market entry in H2: PM Gati Shakti, National Logistics Policy, and GST e-way bill compliance are strong content and demand gen hooks; 8–10% annual 3PL sector growth with ₹800 Cr+ revenue companies actively evaluating platform consolidation
 
 Threats to plan responses for:
 - Oracle and SAP increasing mid-market focus
@@ -387,6 +388,8 @@ Tier 1 Events — Attend + Sponsor or Speak (highest priority):
 | Logistik Indonesia / IndoTrans | Indonesia | September | Indonesian 3PL leaders | First market entry events |
 | PLIA Annual Summit | Philippines | March | Philippine 3PL leaders | 6 pre-booked meetings |
 | Supply Chain Philippines Summit | Philippines | September | Supply chain leaders | Brand + pipeline |
+| CII Logistics Summit | India | Q3/Q4 | Indian 3PL CXOs | Brand entry, 6 pre-booked meetings |
+| ET Supply Chain Forum | India | Q2 | CEO/CFO at listed logistics cos | Executive awareness, CEO meetings |
 
 Tier 2 Events — Attend Only (targeted networking, no sponsorship):
 
@@ -396,6 +399,7 @@ Tier 2 Events — Attend Only (targeted networking, no sponsorship):
 | ALFI gatherings | Indonesia | Quarterly | Indonesian market presence |
 | SALOG events | Saudi Arabia | Quarterly | Saudi market relationship building |
 | PLIA regional chapters | Philippines | Bi-monthly | Regional market coverage |
+| ASSOCHAM Supply Chain chapter | India | Quarterly | India market entry relationship building |
 
 ---
 ### 5B — Event Investment Framework
@@ -472,6 +476,7 @@ Australia: Accenture, Capgemini, local logistics IT consultancies
 Indonesia: Local IT implementation partners in Jakarta
 Saudi Arabia: KPMG Saudi, PwC Middle East, local SIs
 Philippines: Local IT consulting firms serving logistics sector
+India: Wipro, Infosys BPM, HCL Technologies (logistics practice), local logistics IT consultancies in Mumbai and Bangalore
 
 How to develop:
 - Identify 2 to 3 SI partners per region
@@ -505,6 +510,7 @@ Australia: Logistics Magazine, Supply Chain Review
 Indonesia: SWA, local logistics publications
 Saudi Arabia: Arabian Business, Arab News logistics coverage
 Philippines: BusinessWorld, Manila Bulletin supply chain coverage
+India: Economic Times Logistics, Business Standard supply chain coverage, CII publications, ASSOCHAM industry reports
 
 How to develop:
 - Contribute 1 byline article per quarter per publication
@@ -519,7 +525,7 @@ How to develop:
 | Association partnerships | 2 active (AU + SA) | 10% of pipeline via warm introductions |
 | SI partnerships | 3 active (1 per priority region) | 8 referrals per year total |
 | Technology ecosystem | 1 integration partnership | Co-marketing reach only (year 1) |
-| Media partnerships | 1 per region (4 total) | Brand visibility, not direct pipeline |
+| Media partnerships | 1 per region (5 total) | Brand visibility, not direct pipeline |
 
 ---
 ## SECTION 7: SOCIAL MEDIA PLAN — LINKEDIN ORGANIC
@@ -559,6 +565,7 @@ April: Australian 3PL productivity — labour costs and automation
 May: TMS capability spotlight — freight visibility and cost reduction
 June: Mid-year benchmarking data drop — share highlights from gated report
 July: Indonesia logistics growth — Java and beyond
+August (alternate): India logistics focus — PM Gati Shakti, GST compliance, and the 3PL modernisation opportunity
 August: WMS capability spotlight — multi-client warehouse management
 September: Event season content — behind the scenes at logistics conferences
 October: Fleet management and sustainability — growing topic for 3PL leaders

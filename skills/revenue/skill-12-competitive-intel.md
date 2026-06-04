@@ -27,6 +27,9 @@ Run this skill whenever:
 - Local ERP vendors in Indonesia (Odoo, Sage, local builds)
 - Local logistics software vendors in Saudi Arabia and Philippines
 - In-house built systems (common in large family-owned 3PLs in PH and ID)
+- FarEye (India-based, strong in last-mile delivery visibility and dispatch — growing mid-market presence)
+- Locus (India-based, route optimisation and dispatch management — positioned as AI-driven logistics intelligence)
+- Custom-built systems (common in large Indian 3PLs where internal IT teams built proprietary TMS/WMS; difficult to displace but often fails at compliance scale — GST e-way bill, FASTag — which creates entry opportunity)
 
 ## What Makes Ramco Unique vs All Competitors
 1. Built exclusively for 3PLs — not a generic ERP adapted for logistics

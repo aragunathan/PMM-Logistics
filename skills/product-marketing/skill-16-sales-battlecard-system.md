@@ -28,7 +28,7 @@ Audience: AEs in active deals where competitor is shortlisted
 FRONT PAGE (AE-facing):
 Section 1: Competitor snapshot (5 lines max)
   - Who they are, their primary product, where they are strongest
-  - Threat level per region: AU / ID / SA / PH (High / Medium / Low)
+  - Threat level per region: AU / ID / SA / PH / IN (High / Medium / Low)
 
 Section 2: Where they win (be brutally honest — 3 to 4 points)
   - What they genuinely do better or are perceived to do better
@@ -112,7 +112,7 @@ Read strategy/competitive/master-competitor-list.md and all existing
 battlecard files in strategy/competitive/
 
 Generate a 1-page competitive landscape overview for:
-Region: [REPLACE: Australia / Indonesia / Saudi Arabia / Philippines]
+Region: [REPLACE: Australia / Indonesia / Saudi Arabia / Philippines / India]
 
 Include:
 - Table of all competitors present in this region with:

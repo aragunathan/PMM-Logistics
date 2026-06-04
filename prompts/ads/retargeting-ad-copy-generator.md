@@ -18,7 +18,7 @@ Platform: [REPLACE: Google Display / LinkedIn Single Image / LinkedIn Message Ad
 Audience: [REPLACE: TMS Page Visitors / WMS Page Visitors /
            Report Downloaders / All Product Pages]
 Stage: [REPLACE: Stage 1 Value Reminder / Stage 2 Proof / Stage 3 Direct Ask]
-Region: [REPLACE: Australia / Indonesia / Saudi Arabia / Philippines]
+Region: [REPLACE: Australia / Indonesia / Saudi Arabia / Philippines / India]
 Persona: [REPLACE: CIO / COO / CEO]
 
 For Google Display — deliver:

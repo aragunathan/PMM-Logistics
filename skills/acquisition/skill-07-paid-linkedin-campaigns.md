@@ -1,7 +1,7 @@
 # Skill 07 — Paid LinkedIn Campaigns
 ## Ramco Logistics Software | Acquisition
 
-> **Purpose:** Build, launch, and optimise LinkedIn paid campaigns that generate pipeline from 3PL decision-makers across Australia, Indonesia, Saudi Arabia, and Philippines — using a combination of ABM matched audiences, persona-targeted job title campaigns, and retargeting to drive qualified demo requests and content downloads.
+> **Purpose:** Build, launch, and optimise LinkedIn paid campaigns that generate pipeline from 3PL decision-makers across Australia, Indonesia, Saudi Arabia, Philippines, and India — using a combination of ABM matched audiences, persona-targeted job title campaigns, and retargeting to drive qualified demo requests and content downloads.
 > **Output:** Live LinkedIn campaigns per region and per persona with approved copy, optimised audiences, conversion tracking connected to HubSpot, and a weekly performance reporting cadence.
 > **Owner:** Demand Gen / Paid Media (builds and manages) + Product Marketing (approves copy) + Sales Lead (validates audience quality)
 > **Estimated time to complete:** 8–10 hours for initial build across all regions; 2–3 hours/week for ongoing optimisation
@@ -49,7 +49,7 @@ Run campaigns across three layers simultaneously:
 
 **Layer 3 — Retargeting:** Targeted at website visitors, video viewers, and Lead Gen Form openers who have not converted. Lowest CPL, highest conversion rate from warm traffic. Primary KPI: conversion rate, CPL.
 
-Run all three layers per region. Never combine regions in a single campaign — CPL, competition, and optimal bid strategies differ significantly across Australia, Indonesia, Saudi Arabia, and Philippines.
+Run all three layers per region. Never combine regions in a single campaign — CPL, competition, and optimal bid strategies differ significantly across Australia, Indonesia, Saudi Arabia, Philippines, and India.
 
 ---
 
@@ -86,7 +86,10 @@ LinkedIn Campaign Manager Account: Ramco Systems
   ├── Campaign Group: RAMCO | Saudi Arabia | ABM
   │     [same structure]
   │
-  └── Campaign Group: RAMCO | Philippines | ABM
+  ├── Campaign Group: RAMCO | Philippines | ABM
+  │     [same structure]
+  │
+  └── Campaign Group: RAMCO | India | ABM
         [same structure]
 ```
 
@@ -98,6 +101,7 @@ AU = Australia
 ID = Indonesia
 SA = Saudi Arabia
 PH = Philippines
+IN = India
 
 LAYER: ABM / Persona / Retargeting
 PERSONA: CIO / Ops / CEO / All
@@ -255,6 +259,7 @@ AND Location: [Target region]
 | Indonesia | 8,000 – 40,000 per persona |
 | Saudi Arabia | 3,000 – 15,000 per persona |
 | Philippines | 5,000 – 20,000 per persona |
+| India | 10,000 – 50,000 per persona |
 
 If audience is below the lower bound, loosen job title criteria (add adjacent titles). If above the upper bound, tighten industry or add a skills filter (`Supply Chain Management`, `Logistics Management`, `Transportation Management`).
 
@@ -554,10 +559,11 @@ Content: Customer testimonial clip, product walkthrough highlight, or a "day-in-
 
 | Region | % of Total | Rationale |
 |--------|-----------|-----------|
-| Australia | 35% | Highest ACV expectation; most mature digital buying behaviour |
-| Saudi Arabia | 30% | Highest growth priority; expensive market to reach |
+| Australia | 30% | Highest ACV expectation; most mature digital buying behaviour |
+| Saudi Arabia | 25% | Highest growth priority; expensive market to reach |
 | Indonesia | 20% | Larger audience; lower CPL; higher volume strategy |
-| Philippines | 15% | Smaller T1 universe; supplement with outbound-heavy approach |
+| Philippines | 10% | Smaller T1 universe; supplement with outbound-heavy approach |
+| India | 15% | Large and fast-growing 3PL universe; strong LinkedIn professional penetration at C-suite level |
 
 **Minimum viable monthly budget per region:** AUD $3,000 / USD $2,000. Below this, audience frequency is too low to build awareness and the algorithm cannot optimise effectively.
 
@@ -603,7 +609,7 @@ Navigate to: **HubSpot → Settings → Properties → Contact Properties**
 | LinkedIn Ad Campaign | li_ad_campaign | Single-line text | Auto-populated via HubSpot Ads |
 | LinkedIn Ad Lead Gen Form | li_lgf_name | Single-line text | Auto-populated |
 | LinkedIn Audience Layer | li_audience_layer | Dropdown | ABM, Persona, Retargeting |
-| LinkedIn Ad Region | li_ad_region | Dropdown | Australia, Indonesia, Saudi Arabia, Philippines |
+| LinkedIn Ad Region | li_ad_region | Dropdown | Australia, Indonesia, Saudi Arabia, Philippines, India |
 | LinkedIn Ad Persona | li_ad_persona | Dropdown | Technology, Operations, CEO |
 | LinkedIn MQL Source | linkedin_mql | Checkbox | True/False — set to True when LGF lead qualifies as MQL |
 
@@ -833,6 +839,32 @@ Direktur IT (IT Director)
 | CTR (Sponsored Content) | >0.60% |
 | CPL (LGF) | <$45 USD |
 | Message Ad open rate | >45% |
+
+---
+
+#### India
+
+**Audience characteristics:**
+- LinkedIn penetration among Indian logistics and supply chain executives is high and growing rapidly — C-suite and VP-level contacts at large Indian 3PLs are well-represented and professionally active
+- Indian LinkedIn users in the logistics sector are highly engaged with thought leadership content, industry benchmarking, and regulatory compliance topics — content-led campaigns outperform direct demo-request campaigns
+- Mobile-first market: over 70% of Indian LinkedIn usage is on mobile; all creative and landing pages must be mobile-optimised and load fast on 4G connections
+
+**Campaign adjustments:**
+- English-language ad copy is appropriate for all three personas in India — English is the primary B2B professional language in Indian enterprise logistics; no translation to Hindi or regional languages is needed for LinkedIn campaigns
+- GST compliance and e-way bill automation are high-performing content hooks for both COO and CIO personas — lead with regulatory and operational pain before moving to platform capabilities
+- References to National Logistics Policy and PM Gati Shakti resonate with CEO persona who is tracking government-mandated modernisation as a board-level priority
+- Message Ads perform well with Indian executives — direct outreach via LinkedIn InMail is well-received when the sender is a named senior Ramco leader with a credible professional profile
+- Ad imagery should reflect Indian logistics context — large modern warehouses, multi-modal freight, highway trucking operations — not generic Western supply chain stock images
+- Avoid over-claiming on compliance: Indian IT leaders will verify GSTN API integration claims in demos. If Ramco has this built in, state it specifically. If it is partial or roadmap, do not overstate.
+
+**Benchmarks (IN):**
+| Metric | Target |
+|--------|--------|
+| CPM (ABM) | $20–35 USD |
+| CPM (Persona) | $8–15 USD |
+| CTR (Sponsored Content) | >0.50% |
+| CPL (LGF) | <$70 USD |
+| Message Ad open rate | >40% |
 
 ---
 
@@ -1073,12 +1105,12 @@ Be direct. Do not soften findings. A flattering audit is useless.
 | % of spend on non-ICP audiences | <15% | Demographic report audit |
 
 ### Engagement KPIs (measure weekly)
-| Metric | Target AU | Target ID | Target SA | Target PH |
-|--------|----------|----------|----------|----------|
-| CTR (Sponsored Content) | >0.55% | >0.45% | >0.50% | >0.60% |
-| Message Ad open rate | >40% | >45% | >50% | >45% |
-| LGF conversion rate | >10% | >12% | >10% | >12% |
-| Video completion rate (if running) | >25% | >20% | >25% | >25% |
+| Metric | Target AU | Target ID | Target SA | Target PH | Target IN |
+|--------|----------|----------|----------|----------|----------|
+| CTR (Sponsored Content) | >0.55% | >0.45% | >0.50% | >0.60% | >0.50% |
+| Message Ad open rate | >40% | >45% | >50% | >45% | >40% |
+| LGF conversion rate | >10% | >12% | >10% | >12% | >10% |
+| Video completion rate (if running) | >25% | >20% | >25% | >25% | >20% |
 
 ### Pipeline KPIs (measure monthly and quarterly)
 | Metric | Target | How to Measure |

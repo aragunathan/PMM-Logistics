@@ -11,7 +11,7 @@
   },
   "market": {
     "icp": "3PL companies with $100M+ annual revenue",
-    "regions": ["Australia", "Indonesia", "Saudi Arabia", "Philippines"],
+    "regions": ["Australia", "Indonesia", "Saudi Arabia", "Philippines", "India"],
     "industries": ["Third-Party Logistics"],
     "revenue_minimum_usd": 100000000
   },
