@@ -11,7 +11,8 @@
       "WebSearch",
       "Bash(chmod +x C:/ClaudeCode/Clones/PMM-Logistics/scripts/run-product-launch.sh)",
       "Bash(chmod +x C:/ClaudeCode/Clones/PMM-Logistics/scripts/run-case-study.sh)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "WebFetch(domain:www.sadleirs.com.au)"
     ]
   }
 }

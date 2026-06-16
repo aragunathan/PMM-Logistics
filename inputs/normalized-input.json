@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "version": "2.0",
+    "generated": "2026-06-16",
+    "phase": "Phase 0-1: Normalized Input",
+    "source": "inputs/input.json + CLAUDE.md + strategy/strategy.md"
+  },
+
+  "company": {
+    "name": "Ramco Systems — Logistics Software Division",
+    "stage": "Enterprise",
+    "product_type": "Sales-led",
+    "acv_range": "$150k+",
+    "acv_target_average": "$250k-300k",
+    "sales_cycle_days": 180,
+    "gtm_motion": "ABM + Multi-stakeholder consensus selling",
+    "website": "https://www.ramco.com/products/logistics-software/",
+    "crm": "HubSpot",
+    "arr_target_2026": "$8M USD",
+    "new_logos_needed_at_150k": 53,
+    "new_logos_needed_at_300k": 27,
+    "win_rate_current": "20%",
+    "win_rate_target": "25%"
+  },
+
+  "market": {
+    "icp": "Third-party logistics (3PL) companies with $100M+ annual revenue, operating multi-client multi-modal operations (road freight, warehousing, or both), running disconnected TMS + WMS + billing systems and approaching a platform consolidation decision or compliance event",
+    "regions": [
+      {
+        "name": "Australia",
+        "priority": 1,
+        "status": "Primary",
+        "budget_share": "60%",
+        "key_hook": "Chain of Responsibility compliance, VISY Logistics reference account, organic search traction"
+      },
+      {
+        "name": "Indonesia",
+        "priority": 2,
+        "status": "Active",
+        "budget_share": "15%",
+        "key_hook": "Inter-island complexity, e-commerce growth, PT Cipta Krida Bahari reference"
+      },
+      {
+        "name": "Saudi Arabia",
+        "priority": 3,
+        "status": "Active — Emerging",
+        "budget_share": "15%",
+        "key_hook": "Vision 2030 logistics modernisation, ZATCA compliance, Kanoo reference"
+      },
+      {
+        "name": "Philippines",
+        "priority": 4,
+        "status": "Active — H2 2026",
+        "budget_share": "5%",
+        "key_hook": "Metro Manila last-mile, FMCG/pharma, peer-network referrals"
+      },
+      {
+        "name": "India",
+        "priority": 5,
+        "status": "Active — H2 2026 investment",
+        "budget_share": "5%",
+        "key_hook": "GST/e-way bill compliance, 3PL formalisation, large TAM (150-200 qualifying accounts)"
+      }
+    ],
+    "industries": ["Third-Party Logistics (3PL)"],
+    "tam_accounts": "550-800 across five regions",
+    "sam_accounts": "200-260 named accounts with active sales coverage"
+  },
+
+  "personas": [
+    {
+      "id": "P1",
+      "name": "Technology Persona",
+      "titles": ["CIO", "VP IT", "Director IT"],
+      "role": "Gatekeeper and Influencer",
+      "primary_pain": "Integration complexity and implementation risk",
+      "primary_hook": "Single platform, clean APIs, phased implementation, security certifications",
+      "content_format": "Technical whitepapers, API docs, architecture guides, case studies with technical detail",
+      "do_not_say": ["plug-and-play", "quick and easy", "integrates with everything"]
+    },
+    {
+      "id": "P2",
+      "name": "Operations Persona",
+      "titles": ["COO", "VP Operations", "Head of Transportation", "Head of Warehousing"],
+      "role": "End-User Champion and Primary Advocate",
+      "primary_pain": "Manual billing, no real-time visibility, inability to scale without headcount",
+      "primary_hook": "Cost per shipment reduction, automated billing, operational case studies (VISY)",
+      "content_format": "Short product walkthroughs, case studies in operational language, ROI calculators",
+      "do_not_say": ["microservices", "digital transformation", "best-in-class", "IT resources required"]
+    },
+    {
+      "id": "P3",
+      "name": "CEO Persona",
+      "titles": ["CEO", "President", "Managing Director", "Owner"],
+      "role": "Economic Decision Maker and Final Approver",
+      "primary_pain": "Losing deals to digitally capable competitors, margin erosion, inability to scale profitably",
+      "primary_hook": "EBITDA improvement, competitive positioning, peer references from similar-sized 3PLs",
+      "content_format": "Executive one-pagers, peer CEO testimonials, executive briefings, business case templates",
+      "do_not_say": ["feature lists", "200+ workflows", "we're the only vendor", "full-time project manager required"]
+    }
+  ],
+
+  "goals": {
+    "primary": "Pipeline Generation",
+    "target_opps_per_quarter": 20,
+    "target_opps_per_year": 80,
+    "target_new_logos": 16,
+    "arr_target": "$8M USD (total ARR — confirm new vs. base split with Sales)",
+    "secondary": [
+      "Improve win rate from 20% to 25%",
+      "Increase average ACV from $150K to $250K+",
+      "Formalise 3 reference accounts (VISY AU, PT Cipta Krida ID, Kanoo SA)"
+    ]
+  },
+
+  "channels": [
+    {
+      "name": "ABM Outbound (LinkedIn + Email)",
+      "priority": 1,
+      "budget_usd": 0,
+      "notes": "Primary pipeline driver; 1 dedicated SDR. Fix email open rate from 5% to 25%+ immediately."
+    },
+    {
+      "name": "Google Ads (Paid Search)",
+      "priority": 2,
+      "budget_usd": 25000,
+      "notes": "AU-primary. High-intent TMS/WMS/logistics keywords. Skill 09 + 10 framework."
+    },
+    {
+      "name": "LinkedIn Paid",
+      "priority": 3,
+      "budget_usd": 20000,
+      "notes": "TAL retargeting + persona-targeted sponsored content. Skill 07 + 11."
+    },
+    {
+      "name": "SEO / Content",
+      "priority": 4,
+      "budget_usd": 10000,
+      "notes": "Already generating traction. AU-focused. 4 blog posts/month. Skill 08."
+    },
+    {
+      "name": "Industry Events / Roundtables",
+      "priority": 5,
+      "budget_usd": 15000,
+      "notes": "VTA + QTA roundtables. SCLAA national. Small-format ABM events. Skill 05."
+    },
+    {
+      "name": "Partner Co-Marketing",
+      "priority": 6,
+      "budget_usd": 5000,
+      "notes": "HERE Maps, Macship, WHG, Hub Fleet. Joint content + referral introductions."
+    }
+  ],
+
+  "constraints": {
+    "budget_usd": 100000,
+    "team_size": "15+ (marketing + SDR)",
+    "timeline_months": 12,
+    "primary_constraint": "Budget is lean for $8M ARR target — every dollar must map to named account or measurable pipeline outcome"
+  },
+
+  "assets": {
+    "website": true,
+    "crm": "HubSpot",
+    "content": "partial",
+    "data_quality": "medium",
+    "existing_gated_assets": [
+      "WMS implementation guide",
+      "Dangerous goods compliance guide (AU)",
+      "3PL warehouse optimisation eBook",
+      "Integration architecture guide"
+    ],
+    "reference_accounts": [
+      "VISY Logistics (Australia) — primary proof point",
+      "PT Cipta Krida Bahari Logistic (Indonesia)",
+      "PT Tigaraksa Satria Tbk (Indonesia)",
+      "Kanoo Terminal Services (Saudi Arabia)"
+    ]
+  },
+
+  "normalized_additions": {
+    "gtm_motion": "ABM (Account-Based Marketing) — top-down and multi-threaded into named accounts",
+    "funnel_maturity": "Mid-stage — pipeline exists (21 active deals), but conversion is below target and email deliverability is critically low",
+    "growth_bottlenecks": [
+      "Email open rate at 5% (target 25%+) — likely SPF/DKIM/DMARC authentication issue + weak subject lines",
+      "Win rate at 20% — price is #1 loss reason, value not established before commercial conversations",
+      "Pipeline volume insufficient to reach $8M ARR at current win rate and ACV",
+      "VISY case study not yet published — primary proof point not deployed",
+      "ROI calculator not built — price objection not pre-empted with cost-of-inaction data"
+    ],
+    "immediate_priorities": [
+      "Fix email deliverability (SPF/DKIM/DMARC) — unlock highest-ROI channel",
+      "Publish VISY case study — deploy proof point across all channels",
+      "Build ROI calculator for Ops persona — pre-empt price objection",
+      "Activate TMS launch campaign (Q2 2026 anchor event)",
+      "Formalise AU roundtable series (VTA + QTA)"
+    ]
+  },
+
+  "assumptions": [
+    "ASSUMED: $8M ARR target includes existing base ARR — net-new ARR target is $1-2M (confirm with Sales leadership)",
+    "ASSUMED: Average deal size will run $250-300K, not $150K floor, for funnel math to work",
+    "ASSUMED: India marketing investment begins H2 2026 with GST/e-way bill compliance as primary hook",
+    "ASSUMED: Philippines is H2 2026 — AU playbook replicated after proving ROI",
+    "ASSUMED: Saudi Arabia is light-touch until Sales validates the market further (Kanoo account-specific)"
+  ],
+
+  "detected_gaps": [
+    "Skill 02 (SDR Outbound LinkedIn Playbook) is missing from the skills directory",
+    "campaigns/google-ads/ contains only account-structure.md — no actual keyword sets per region generated",
+    "No iteration-feedback-system.md — no formal cadence for campaign optimization decisions",
+    "No repository-architecture.md — skill dependencies and execution order not documented",
+    "ROI calculator not built (blocked by: no structured brief or template)",
+    "VISY case study not published (blocked by: no approved case study brief)",
+    "Email deliverability audit not completed (critical — all outbound results depend on this)"
+  ]
+}

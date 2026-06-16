@@ -126,6 +126,32 @@ Quick commands:
   → read campaigns/retargeting/audience-setup-checklist.md
 
 ---
+## Skill 02: SDR Outbound LinkedIn Playbook (Added)
+File: skills/acquisition/skill-02-sdr-outbound-linkedin.md
+Depends on: Skill 01, Skill 03, inputs/persona-definitions.md
+
+Rules when I ask for LinkedIn outbound / SDR sequence work:
+- Always read Skill 02 before generating any LinkedIn outreach sequence or connection request
+- Always read persona-definitions.md before writing any message
+- Always read Skill 01 for TAL context (T1 vs T2 designation)
+- Connection requests: max 300 characters, no product mention, no CTA, personalised hook required
+- Message 1: no CTA, value-first only
+- Message 2: proof point + soft CTA (document offer, not meeting)
+- Message 3: peer reference offer — first real CTA
+- Message 4: low-friction close — final touch
+- Regional scheduling rules apply (AU = Tue–Thu 9–11am AEST; SA = Sun–Tue; ID = pause Ramadan)
+- Every message logged in HubSpot same day
+- Save all sequence outputs to campaigns/accounts/[company]/
+
+Quick commands:
+- "Write LinkedIn sequence for [PERSONA] at [COMPANY] in [REGION]"
+  → read Skill 02 + Skill 03 + persona-definitions.md, use Prompt 2, save to campaigns/accounts/
+- "Diagnose low reply rate on [SEQUENCE NAME]"
+  → use Skill 02 Prompt 3 (diagnosis), rewrite underperforming messages
+- "Write a connection request for [FIRST NAME] at [COMPANY]"
+  → read Skill 02 + persona-definitions.md, use Prompt 1, output 2 variants (A/B)
+
+---
 ## Agent Rules (Added)
 
 When I say "run the [agent name] agent", do the following without pausing:
